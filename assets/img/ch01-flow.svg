@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-label="社長の羅針盤が会社の地図につながる流れ。社長のこととして、私の人生の羅針盤（第1章）。そこから会社のこととして、わが社の合言葉（第4章）、会社の夢の完成図（第5章）、未来の作戦マップ（第6章）へと順につながる。社長が自分の価値観を知ると、いちばんの合言葉のお手本になれる">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- 左のくくり -->
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M188 24 H176 V92 H188"/>
+      <path d="M188 132 H176 V416 H188"/>
+    </g>
+    <g font-size="15" fill="var(--ink-soft, #545c78)">
+      <text x="136" y="54">社長の</text><text x="136" y="74">こと</text>
+      <text x="136" y="270">会社の</text><text x="136" y="290">こと</text>
+    </g>
+    <!-- 1 羅針盤 -->
+    <rect x="200" y="20" width="400" height="76" rx="16" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <text x="400" y="52" font-size="19" fill="#1d2540">🧭 私の人生の羅針盤（第1章）</text>
+    <text x="400" y="76" font-size="13" fill="#1d2540">社長自身の「何のために」</text>
+    <!-- 矢印 -->
+    <g stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M400 100 V122"/><path d="M391 112 L400 124 L409 112"/>
+      <path d="M400 208 V230"/><path d="M391 220 L400 232 L409 220"/>
+      <path d="M400 316 V338"/><path d="M391 328 L400 340 L409 328"/>
+    </g>
+    <!-- 2 合言葉 -->
+    <rect x="200" y="128" width="400" height="76" rx="16" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <text x="400" y="160" font-size="19" fill="var(--ink, #1d2540)">🤝 わが社の合言葉（第4章）</text>
+    <text x="400" y="184" font-size="13" fill="var(--ink-soft, #545c78)">会社のみんなで大切にすること</text>
+    <!-- 3 夢の完成図 -->
+    <rect x="200" y="236" width="400" height="76" rx="16" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <text x="400" y="268" font-size="19" fill="var(--ink, #1d2540)">🏔 会社の夢の完成図（第5章）</text>
+    <text x="400" y="292" font-size="13" fill="var(--ink-soft, #545c78)">会社が10〜20年後に目指す姿</text>
+    <!-- 4 作戦マップ -->
+    <rect x="200" y="344" width="400" height="76" rx="16" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <text x="400" y="376" font-size="19" fill="var(--ink, #1d2540)">🗺 未来の作戦マップ（第6章）</text>
+    <text x="400" y="400" font-size="13" fill="var(--ink-soft, #545c78)">3年後のゴールと8つの作戦</text>
+    <!-- ひとこと -->
+    <path d="M604 114 L622 126" stroke="var(--ink-soft, #545c78)" stroke-width="2" stroke-dasharray="3 5" stroke-linecap="round"/>
+    <rect x="624" y="104" width="166" height="108" rx="14" fill="var(--surface, #fff)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <g font-size="13" fill="var(--ink, #1d2540)">
+      <text x="707" y="130">💡 社長が自分の</text>
+      <text x="707" y="152">価値観を知ると、</text>
+      <text x="707" y="174">いちばんの</text>
+      <text x="707" y="196">合言葉のお手本に</text>
+    </g>
+  </g>
+</svg>

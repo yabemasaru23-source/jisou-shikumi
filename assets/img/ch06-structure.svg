@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" aria-label="未来の作戦マップのしくみ。いちばん上に会社の夢の完成図、その下に3年後のゴール1つ、その下に8つの作戦、それぞれの作戦の下に仕組みが8つずつ、合わせて最大64個">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- 夢 -->
+    <rect x="200" y="12" width="400" height="64" rx="32" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <text x="400" y="42" font-size="20" fill="var(--ink, #1d2540)">🏔 会社の夢の完成図</text>
+    <text x="400" y="64" font-size="13" fill="var(--ink-soft, #545c78)">10〜20年後の、会社の完成した姿（第5章）</text>
+    <path d="M400 80 V104" stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M392 88 L400 78 L408 88" fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- ゴール -->
+    <rect x="240" y="108" width="320" height="64" rx="14" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <text x="400" y="138" font-size="20" fill="#1d2540">🚩 3年後のゴール</text>
+    <text x="400" y="160" font-size="13" fill="#1d2540">数字は、たった1つ</text>
+    <!-- 8本の矢印 -->
+    <g stroke="var(--ink-soft, #545c78)" stroke-width="2.5" stroke-linecap="round" fill="none">
+      <path d="M85 214 L360 176"/><path d="M175 214 L375 176"/><path d="M265 214 L390 176"/><path d="M355 214 L400 176"/>
+      <path d="M445 214 L400 176"/><path d="M535 214 L410 176"/><path d="M625 214 L425 176"/><path d="M715 214 L440 176"/>
+    </g>
+    <!-- 8つの作戦 -->
+    <g font-size="15">
+      <rect x="45" y="216" width="80" height="60" rx="12" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/><text x="85" y="242" fill="var(--ink, #1d2540)">作戦1</text><text x="85" y="264" font-size="18">💰</text>
+      <rect x="135" y="216" width="80" height="60" rx="12" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/><text x="175" y="242" fill="var(--ink, #1d2540)">作戦2</text><text x="175" y="264" font-size="18">😊</text>
+      <rect x="225" y="216" width="80" height="60" rx="12" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/><text x="265" y="242" fill="var(--ink, #1d2540)">作戦3</text><text x="265" y="264" font-size="18">⚙️</text>
+      <rect x="315" y="216" width="80" height="60" rx="12" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/><text x="355" y="242" fill="var(--ink, #1d2540)">作戦4</text><text x="355" y="264" font-size="18">🌱</text>
+      <rect x="405" y="216" width="80" height="60" rx="12" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/><text x="445" y="242" fill="var(--ink, #1d2540)">作戦5</text><text x="445" y="264" font-size="18">🤝</text>
+      <rect x="495" y="216" width="80" height="60" rx="12" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/><text x="535" y="242" fill="var(--ink, #1d2540)">作戦6</text><text x="535" y="264" font-size="18">🎁</text>
+      <rect x="585" y="216" width="80" height="60" rx="12" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/><text x="625" y="242" fill="var(--ink, #1d2540)">作戦7</text><text x="625" y="264" font-size="18">🏠</text>
+      <rect x="675" y="216" width="80" height="60" rx="12" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/><text x="715" y="242" fill="var(--ink, #1d2540)">作戦8</text><text x="715" y="264" font-size="18">🧭</text>
+    </g>
+    <text x="400" y="304" font-size="13" fill="var(--ink-soft, #545c78)">それぞれに「やること」と「ものさし（数字）」を1つずつ</text>
+    <!-- 仕組み 8×8 -->
+    <defs><g id="c06-sys"><rect x="0" y="0" width="16" height="16" rx="4"/><rect x="21" y="0" width="16" height="16" rx="4"/><rect x="42" y="0" width="16" height="16" rx="4"/><rect x="63" y="0" width="16" height="16" rx="4"/><rect x="0" y="21" width="16" height="16" rx="4"/><rect x="21" y="21" width="16" height="16" rx="4"/><rect x="42" y="21" width="16" height="16" rx="4"/><rect x="63" y="21" width="16" height="16" rx="4"/></g></defs>
+    <g fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="1.5">
+      <use href="#c06-sys" x="46" y="320"/><use href="#c06-sys" x="136" y="320"/><use href="#c06-sys" x="226" y="320"/><use href="#c06-sys" x="316" y="320"/>
+      <use href="#c06-sys" x="406" y="320"/><use href="#c06-sys" x="496" y="320"/><use href="#c06-sys" x="586" y="320"/><use href="#c06-sys" x="676" y="320"/>
+    </g>
+    <rect x="160" y="378" width="480" height="70" rx="16" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2"/>
+    <text x="400" y="408" font-size="18" fill="var(--ink, #1d2540)">🔧 仕組み：作戦ごとに8つ ＝ 最大64個</text>
+    <text x="400" y="432" font-size="13" fill="var(--ink-soft, #545c78)">いますぐ全部つくらなくて大丈夫。順番は第8章で決めます</text>
+  </g>
+</svg>

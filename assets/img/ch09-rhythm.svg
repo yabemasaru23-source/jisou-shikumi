@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 490" role="img" aria-label="会社のリズムを1年の時間割で見た図。4月から3月までの12か月に、作戦会議は毎週（実行）、3か月ごとに計画、半年ごとに考える会。拠点長会議は毎月（実行）、1対1の応援面談も毎月（実行）。全員集合ミーティングは4月と10月の年2回で、考えると計画をする。ふだんの会議は「実行する」が中心">
+  <defs>
+    <g id="c09-week" fill="var(--sun, #f2b01e)"><rect x="8" y="0" width="4" height="16" rx="2"/><rect x="16" y="0" width="4" height="16" rx="2"/><rect x="24" y="0" width="4" height="16" rx="2"/><rect x="32" y="0" width="4" height="16" rx="2"/></g>
+    <rect id="c09-do" x="-9" y="-9" width="18" height="18" rx="5" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="1.5"/>
+    <path id="c09-plan" d="M0 -10 L10 0 L0 10 L-10 0 Z" fill="var(--sky-ink, #6f86b8)" stroke="var(--ink, #1d2540)" stroke-width="1.5" stroke-linejoin="round"/>
+    <circle id="c09-think" r="9" fill="var(--leaf, #2f8f6b)" stroke="var(--ink, #1d2540)" stroke-width="1.5"/>
+  </defs>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+    <text x="400" y="28" font-size="18" text-anchor="middle" fill="var(--ink, #1d2540)">📅 会社のリズム：1年の時間割</text>
+    <rect x="224" y="42" width="560" height="28" rx="8" fill="var(--sky, #dbe7fb)"/>
+    <g font-size="13" text-anchor="middle" fill="var(--ink, #1d2540)">
+      <text x="251" y="61">4月</text><text x="297" y="61">5月</text><text x="343" y="61">6月</text><text x="389" y="61">7月</text><text x="435" y="61">8月</text><text x="481" y="61">9月</text><text x="527" y="61">10月</text><text x="573" y="61">11月</text><text x="619" y="61">12月</text><text x="665" y="61">1月</text><text x="711" y="61">2月</text><text x="757" y="61">3月</text>
+    </g>
+    <rect x="16" y="80" width="200" height="70" rx="12" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <rect x="224" y="80" width="560" height="70" rx="12" fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="1.5"/>
+    <text x="116" y="110" font-size="16" text-anchor="middle" fill="var(--ink, #1d2540)">作戦会議</text>
+    <text x="116" y="132" font-size="12" text-anchor="middle" fill="var(--ink-soft, #545c78)">毎週・60分（社長＋部長）</text>
+    <rect x="16" y="158" width="200" height="70" rx="12" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <rect x="224" y="158" width="560" height="70" rx="12" fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="1.5"/>
+    <text x="116" y="188" font-size="16" text-anchor="middle" fill="var(--ink, #1d2540)">拠点長会議</text>
+    <text x="116" y="210" font-size="12" text-anchor="middle" fill="var(--ink-soft, #545c78)">毎月・90分（部長＋拠点長）</text>
+    <rect x="16" y="236" width="200" height="70" rx="12" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <rect x="224" y="236" width="560" height="70" rx="12" fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="1.5"/>
+    <text x="116" y="266" font-size="16" text-anchor="middle" fill="var(--ink, #1d2540)">1対1の応援面談</text>
+    <text x="116" y="288" font-size="12" text-anchor="middle" fill="var(--ink-soft, #545c78)">毎月・30分（上司と部下）</text>
+    <rect x="16" y="314" width="200" height="70" rx="12" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <rect x="224" y="314" width="560" height="70" rx="12" fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="1.5"/>
+    <text x="116" y="344" font-size="16" text-anchor="middle" fill="var(--ink, #1d2540)">全員集合ミーティング</text>
+    <text x="116" y="366" font-size="12" text-anchor="middle" fill="var(--ink-soft, #545c78)">年2回・4月と10月（全員）</text>
+    <g stroke="var(--ink-soft, #545c78)" stroke-width="1" opacity=".3">
+      <line x1="274" y1="88" x2="274" y2="142"/><line x1="320" y1="88" x2="320" y2="142"/><line x1="366" y1="88" x2="366" y2="142"/><line x1="412" y1="88" x2="412" y2="142"/><line x1="458" y1="88" x2="458" y2="142"/><line x1="504" y1="88" x2="504" y2="142"/><line x1="550" y1="88" x2="550" y2="142"/><line x1="596" y1="88" x2="596" y2="142"/><line x1="642" y1="88" x2="642" y2="142"/><line x1="688" y1="88" x2="688" y2="142"/><line x1="734" y1="88" x2="734" y2="142"/>
+      <line x1="274" y1="166" x2="274" y2="220"/><line x1="320" y1="166" x2="320" y2="220"/><line x1="366" y1="166" x2="366" y2="220"/><line x1="412" y1="166" x2="412" y2="220"/><line x1="458" y1="166" x2="458" y2="220"/><line x1="504" y1="166" x2="504" y2="220"/><line x1="550" y1="166" x2="550" y2="220"/><line x1="596" y1="166" x2="596" y2="220"/><line x1="642" y1="166" x2="642" y2="220"/><line x1="688" y1="166" x2="688" y2="220"/><line x1="734" y1="166" x2="734" y2="220"/>
+      <line x1="274" y1="244" x2="274" y2="298"/><line x1="320" y1="244" x2="320" y2="298"/><line x1="366" y1="244" x2="366" y2="298"/><line x1="412" y1="244" x2="412" y2="298"/><line x1="458" y1="244" x2="458" y2="298"/><line x1="504" y1="244" x2="504" y2="298"/><line x1="550" y1="244" x2="550" y2="298"/><line x1="596" y1="244" x2="596" y2="298"/><line x1="642" y1="244" x2="642" y2="298"/><line x1="688" y1="244" x2="688" y2="298"/><line x1="734" y1="244" x2="734" y2="298"/>
+      <line x1="274" y1="322" x2="274" y2="376"/><line x1="320" y1="322" x2="320" y2="376"/><line x1="366" y1="322" x2="366" y2="376"/><line x1="412" y1="322" x2="412" y2="376"/><line x1="458" y1="322" x2="458" y2="376"/><line x1="504" y1="322" x2="504" y2="376"/><line x1="550" y1="322" x2="550" y2="376"/><line x1="596" y1="322" x2="596" y2="376"/><line x1="642" y1="322" x2="642" y2="376"/><line x1="688" y1="322" x2="688" y2="376"/><line x1="734" y1="322" x2="734" y2="376"/>
+    </g>
+    <use href="#c09-week" x="228" y="92"/><use href="#c09-week" x="274" y="92"/><use href="#c09-week" x="320" y="92"/><use href="#c09-week" x="366" y="92"/><use href="#c09-week" x="412" y="92"/><use href="#c09-week" x="458" y="92"/><use href="#c09-week" x="504" y="92"/><use href="#c09-week" x="550" y="92"/><use href="#c09-week" x="596" y="92"/><use href="#c09-week" x="642" y="92"/><use href="#c09-week" x="688" y="92"/><use href="#c09-week" x="734" y="92"/>
+    <use href="#c09-plan" x="343" y="126"/>
+    <use href="#c09-plan" x="619" y="126"/>
+    <use href="#c09-plan" x="469" y="126"/><use href="#c09-think" x="493" y="126"/>
+    <use href="#c09-plan" x="745" y="126"/><use href="#c09-think" x="769" y="126"/>
+    <use href="#c09-do" x="251" y="193"/><use href="#c09-do" x="297" y="193"/><use href="#c09-do" x="343" y="193"/><use href="#c09-do" x="389" y="193"/><use href="#c09-do" x="435" y="193"/><use href="#c09-do" x="481" y="193"/><use href="#c09-do" x="527" y="193"/><use href="#c09-do" x="573" y="193"/><use href="#c09-do" x="619" y="193"/><use href="#c09-do" x="665" y="193"/><use href="#c09-do" x="711" y="193"/><use href="#c09-do" x="757" y="193"/>
+    <use href="#c09-do" x="251" y="271"/><use href="#c09-do" x="297" y="271"/><use href="#c09-do" x="343" y="271"/><use href="#c09-do" x="389" y="271"/><use href="#c09-do" x="435" y="271"/><use href="#c09-do" x="481" y="271"/><use href="#c09-do" x="527" y="271"/><use href="#c09-do" x="573" y="271"/><use href="#c09-do" x="619" y="271"/><use href="#c09-do" x="665" y="271"/><use href="#c09-do" x="711" y="271"/><use href="#c09-do" x="757" y="271"/>
+    <use href="#c09-think" x="239" y="349"/><use href="#c09-plan" x="263" y="349"/>
+    <use href="#c09-think" x="515" y="349"/><use href="#c09-plan" x="539" y="349"/>
+    <rect x="16" y="396" width="768" height="44" rx="12" fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="1.5"/>
+    <use href="#c09-do" x="45" y="418"/><use href="#c09-plan" x="300" y="418"/><use href="#c09-think" x="550" y="418"/>
+    <g font-size="13" fill="var(--ink, #1d2540)">
+      <text x="62" y="423">実行する：進み具合をたしかめる</text>
+      <text x="318" y="423">計画する：順番と担当を決める</text>
+      <text x="566" y="423">考える：行き先を見直す</text>
+    </g>
+    <text x="400" y="470" font-size="14" text-anchor="middle" fill="var(--ink-soft, #545c78)">作戦会議は毎週「実行」。3か月ごとに「計画」、半年ごとに「考える会」</text>
+  </g>
+</svg>

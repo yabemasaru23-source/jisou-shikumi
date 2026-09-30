@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-label="霧の中で道が3つに分かれている。くるりんが羅針盤を持って「まずは、自分の羅針盤から！」と話している。羅針盤の針は、遠くの山の上にかがやく人生の目的の星を指し、その方角の道だけが明るく続いている">
+  <rect width="800" height="320" rx="24" fill="var(--sky, #dbe7fb)"/>
+  <!-- くも -->
+  <g fill="var(--surface, #fff)" opacity=".85">
+    <ellipse cx="400" cy="62" rx="44" ry="15"/><ellipse cx="430" cy="52" rx="28" ry="14"/>
+  </g>
+  <!-- 遠くの山 -->
+  <path d="M470 250 L580 150 L690 250 Z" fill="var(--sky-ink, #6f86b8)" opacity=".7"/>
+  <path d="M600 250 L700 170 L790 250 Z" fill="var(--sky-ink, #6f86b8)" opacity=".45"/>
+  <path d="M300 250 L380 190 L470 250 Z" fill="var(--sky-ink, #6f86b8)" opacity=".35"/>
+  <!-- 目的の星 -->
+  <g transform="translate(650 52)">
+    <path d="M0 -18 L5 -6 L18 -5 L8 3 L11 16 L0 9 L-11 16 L-8 3 L-18 -5 L-5 -6 Z" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+    <rect x="570" y="80" width="160" height="34" rx="17" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="650" y="103" font-size="16" text-anchor="middle" fill="var(--ink, #1d2540)">🎯 人生の目的</text>
+  </g>
+  <!-- 手前の丘 -->
+  <ellipse cx="400" cy="360" rx="480" ry="110" fill="var(--leaf, #2f8f6b)" opacity=".8"/>
+  <!-- 分かれ道 -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M420 318 Q360 290 300 262" stroke="var(--surface, #fff)" stroke-width="5" stroke-dasharray="2 12" opacity=".7"/>
+    <path d="M420 318 Q428 290 420 260" stroke="var(--surface, #fff)" stroke-width="5" stroke-dasharray="2 12" opacity=".7"/>
+    <path d="M420 318 Q500 290 560 258" stroke="var(--sun, #f2b01e)" stroke-width="6" stroke-dasharray="2 12"/>
+  </g>
+  <!-- 霧 -->
+  <g fill="var(--surface, #fff)" opacity=".8">
+    <ellipse cx="310" cy="248" rx="80" ry="15"/><ellipse cx="430" cy="244" rx="60" ry="13"/>
+    <ellipse cx="380" cy="200" rx="110" ry="16"/><ellipse cx="540" cy="212" rx="70" ry="12"/>
+  </g>
+  <!-- くるりん -->
+  <g transform="translate(113 153.1) scale(.95)">
+    <g transform="translate(60 62)">
+      <g fill="var(--sun, #f2b01e)">
+        <rect x="-9" y="-54" width="18" height="22" rx="6"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(45)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(90)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(135)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(180)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(225)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(270)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(315)"/>
+      </g>
+      <circle r="40" fill="var(--sun, #f2b01e)"/><circle r="31" fill="#ffd866"/>
+      <circle cx="-12" cy="-4" r="5" fill="#1d2540"/><circle cx="12" cy="-4" r="5" fill="#1d2540"/>
+      <circle cx="-10.5" cy="-6" r="1.8" fill="#fff"/><circle cx="13.5" cy="-6" r="1.8" fill="#fff"/>
+      <ellipse cx="-21" cy="8" rx="6" ry="4" fill="#f4845f" opacity=".55"/><ellipse cx="21" cy="8" rx="6" ry="4" fill="#f4845f" opacity=".55"/>
+      <path d="M-9 9 Q0 19 9 9" fill="none" stroke="#1d2540" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- 羅針盤 -->
+      <g transform="translate(46 16)">
+        <circle r="21" fill="var(--surface, #fff)" stroke="#1d2540" stroke-width="2.5"/>
+        <circle r="15" fill="none" stroke="var(--sky-ink, #6f86b8)" stroke-width="1.5"/>
+        <g transform="rotate(68)">
+          <path d="M0 -15 L5 0 L-5 0 Z" fill="var(--warm, #c0583a)"/>
+          <path d="M0 15 L5 0 L-5 0 Z" fill="var(--sky-ink, #6f86b8)"/>
+        </g>
+        <circle r="2.5" fill="#1d2540"/>
+      </g>
+    </g>
+  </g>
+  <!-- 針の方角 -->
+  <path d="M244 215 L300 192.5" fill="none" stroke="var(--warm, #c0583a)" stroke-width="2.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+    <path d="M54 44 h212 a14 14 0 0 1 14 14 v24 a14 14 0 0 1 -14 14 h-80 l-14 20 l-4 -20 h-114 a14 14 0 0 1 -14 -14 v-24 a14 14 0 0 1 14 -14 z" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="160" y="76" font-size="15" text-anchor="middle" fill="var(--ink, #1d2540)">まずは、自分の羅針盤から！</text>
+  </g>
+</svg>

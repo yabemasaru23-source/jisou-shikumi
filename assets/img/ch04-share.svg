@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-label="合言葉の伝え方の3つのステップ。1、幹部や信頼できる人に下書きを見せて「どう思う？」と聞く。2、職員さんの声を聞いて一緒に磨く。3、全員集合ミーティングで発表して、「今月の合言葉ヒーロー」などで毎日の仕事の中でくり返し話題にする">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- ステップ1 -->
+    <rect x="16" y="20" width="232" height="230" rx="16" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <circle cx="132" cy="54" r="18" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="132" y="60" font-size="18" fill="var(--ink, #1d2540)">1</text>
+    <text x="132" y="100" font-size="18" fill="var(--ink, #1d2540)">📝 下書きを見せる</text>
+    <text x="132" y="126" font-size="14" fill="var(--ink-soft, #545c78)">幹部・信頼できる人に</text>
+    <rect x="34" y="146" width="196" height="84" rx="14" fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="2"/>
+    <text x="132" y="194" font-size="16" fill="var(--ink, #1d2540)">「どう思う？」</text>
+    <!-- 矢印 -->
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M254 135 H276"/><path d="M268 127 L277 135 L268 143"/>
+      <path d="M522 135 H544"/><path d="M536 127 L545 135 L536 143"/>
+    </g>
+    <!-- ステップ2 -->
+    <rect x="284" y="20" width="232" height="230" rx="16" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <circle cx="400" cy="54" r="18" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="400" y="60" font-size="18" fill="var(--ink, #1d2540)">2</text>
+    <text x="400" y="100" font-size="18" fill="var(--ink, #1d2540)">💬 一緒に磨く</text>
+    <text x="400" y="126" font-size="14" fill="var(--ink-soft, #545c78)">職員さんの声を聞く</text>
+    <rect x="302" y="146" width="196" height="84" rx="14" fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="2"/>
+    <text x="400" y="182" font-size="14" fill="var(--ink, #1d2540)">「この合言葉らしい</text>
+    <text x="400" y="206" font-size="14" fill="var(--ink, #1d2540)">エピソードを教えて」</text>
+    <!-- ステップ3 -->
+    <rect x="552" y="20" width="232" height="230" rx="16" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <circle cx="668" cy="54" r="18" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="668" y="60" font-size="18" fill="var(--ink, #1d2540)">3</text>
+    <text x="668" y="100" font-size="18" fill="#1d2540">発表して、使いつづける</text>
+    <text x="668" y="126" font-size="14" fill="#1d2540">全員集合ミーティングで</text>
+    <rect x="570" y="146" width="196" height="84" rx="14" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="668" y="182" font-size="14" fill="var(--ink, #1d2540)">「今月の合言葉ヒーロー」</text>
+    <text x="668" y="206" font-size="14" fill="var(--ink, #1d2540)">などで、くり返し話題に</text>
+    <!-- くり返す -->
+    <rect x="130" y="266" width="540" height="42" rx="21" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2"/>
+    <text x="400" y="293" font-size="14" fill="var(--ink, #1d2540)">🔁 社長が「もう言いあきた」と感じるころ、ようやく届きはじめる</text>
+  </g>
+</svg>

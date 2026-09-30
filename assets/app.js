@@ -72,7 +72,9 @@
       registry[w.id] = { w, chId: info.id };
       return `\n\n<div class="work-slot" data-w="${works.length - 1}"></div>\n\n`;
     });
-    const html = marked.parse(body, { gfm: true });
+    // 日本語のカギかっこに接した **太字** は Markdown の規則で太字にならないため、先に置きかえる（```の中は除く）
+    const bolded = body.split(/(```[\s\S]*?```)/).map((part, i) => i % 2 ? part : part.replace(/\*\*([^*\n]+?)\*\*/g, '<strong>$1</strong>')).join('');
+    const html = marked.parse(bolded, { gfm: true });
     return { meta: Object.assign({ title: info.title }, meta), info, html, works };
   }
 
@@ -183,6 +185,70 @@
     clearTimeout(toastTimer); toastTimer = setTimeout(() => t.remove(), 2600);
   }
   function autosize(ta) { ta.style.height = 'auto'; ta.style.height = Math.max(ta.scrollHeight + 2, 90) + 'px'; }
+  let viewAbort = new AbortController();
+  const onChange = fn => document.addEventListener('work-change', fn, { signal: viewAbort.signal });
+
+  /* ───────── 挿絵（SVGをページに埋めこむ） ───────── */
+  const svgCache = {};
+  function svgText(src) {
+    if (!svgCache[src]) svgCache[src] = fetch(src).then(r => r.ok ? r.text() : '').catch(() => '');
+    return svgCache[src];
+  }
+  function svgNode(txt) {
+    if (!txt) return null;
+    const d = new DOMParser().parseFromString(txt, 'image/svg+xml');
+    return d.documentElement && d.documentElement.nodeName === 'svg' ? document.importNode(d.documentElement, true) : null;
+  }
+  async function inlineSvgs(root) {
+    const imgs = [...root.querySelectorAll('img')].filter(i => /\.svg$/i.test(i.getAttribute('src') || ''));
+    await Promise.all(imgs.map(async img => {
+      const n = svgNode(await svgText(img.getAttribute('src')));
+      if (!n) return;
+      if (!n.getAttribute('aria-label')) n.setAttribute('aria-label', img.alt || '');
+      const fig = el('figure', { class: 'figure' }, n);
+      const p = img.parentElement;
+      (p && p.tagName === 'P' && p.childNodes.length === 1 ? p : img).replaceWith(fig);
+    }));
+  }
+  async function mascot(cls) {
+    const n = svgNode(await svgText('assets/img/kururin.svg'));
+    const w = el('span', { class: cls || 'mascot', 'aria-hidden': 'true' });
+    if (n) { n.removeAttribute('role'); n.removeAttribute('aria-label'); w.append(n); }
+    return w;
+  }
+
+  /* ───────── できたね！のお祝い ───────── */
+  async function celebrate(info) {
+    const avail = manifest.chapters.filter(c => c.file);
+    const next = avail[avail.findIndex(c => c.id === info.id) + 1];
+    const close = () => ov.remove();
+    const card = el('div', { class: 'card', role: 'dialog', 'aria-modal': 'true', 'aria-label': 'ワーク完了' },
+      await mascot(),
+      el('h2', null, 'やったね！'),
+      el('p', null, `第${+info.id}章「${info.title}」のワークを、ぜんぶ書きました。会社の設計図が、またひとつそろいました。`),
+      el('div', { class: 'row', style: 'justify-content:center' },
+        next ? el('a', { class: 'btn primary', href: '#ch-' + next.id, onclick: () => close() }, `次は 第${+next.id}章へ`) : el('a', { class: 'btn primary', href: '#blueprint', onclick: () => close() }, '設計図を見る'),
+        el('button', { type: 'button', class: 'btn ghost', onclick: () => close() }, 'とじる')));
+    const ov = el('div', { class: 'celebrate' }, card);
+    ov.addEventListener('click', e => { if (e.target === ov) close(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); }, { once: true });
+    document.body.append(ov);
+    card.querySelector('.btn').focus();
+    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const cv = el('canvas'); ov.append(cv);
+    const ctx = cv.getContext('2d'); const W = cv.width = innerWidth, H = cv.height = innerHeight;
+    const cs = getComputedStyle(document.documentElement);
+    const colors = ['--sun', '--leaf', '--sky-ink', '--warm'].map(v => cs.getPropertyValue(v).trim() || '#f2b01e');
+    const ps = Array.from({ length: 140 }, () => ({ x: Math.random() * W, y: -20 - Math.random() * H * .5, vx: (Math.random() - .5) * 2, vy: 2 + Math.random() * 3, r: Math.random() * 6.28, vr: (Math.random() - .5) * .3, w: 6 + Math.random() * 6, c: colors[Math.floor(Math.random() * colors.length)] }));
+    const t0 = performance.now();
+    (function tick(t) {
+      if (!cv.isConnected) return;
+      ctx.clearRect(0, 0, W, H);
+      ps.forEach(q => { q.x += q.vx; q.y += q.vy; q.r += q.vr; ctx.save(); ctx.translate(q.x, q.y); ctx.rotate(q.r); ctx.fillStyle = q.c; ctx.fillRect(-q.w / 2, -q.w / 4, q.w, q.w / 2); ctx.restore(); });
+      if (t - t0 < 3500) requestAnimationFrame(tick); else cv.remove();
+    })(t0);
+  }
+
   const uid = (() => { let n = 0; return p => (p || 'f') + '-' + (++n); })();
 
   /* ───────── ワーク（入力欄） ───────── */
@@ -528,7 +594,7 @@
         box.append(any ? dl : el('p', { class: 'empty' }, w.empty || 'まだ前の章が入力されていません。'));
       };
       draw(); body.append(box);
-      document.addEventListener('work-change', draw);
+      onChange(draw);
       return {};
     },
     mandala(w, body, commit) {
@@ -672,7 +738,8 @@
   }
 
   /* ───────── 画面：トップ（道のり） ───────── */
-  function viewHome() {
+  const STAGE_ICON = { '0': '🗺️', '1': '🧭', '2': '🤝', '3': '🚩', '4': '⚙️', '5': '🌱', '6': '😊', '9': '🏁' };
+  async function viewHome() {
     const req = manifest.chapters.filter(c => c.required);
     const reqDone = req.filter(c => progress(chapters[c.id]).ratio >= .8).length;
     const diag = registry['diag.basic'];
@@ -683,6 +750,8 @@
     const left = el('div');
     left.innerHTML = `<h1>社長がいなくても、<br><em>会社が走りつづける</em>。</h1>
       <p>考え方を読んで、質問に答えていくだけ。20の章を進むと、あなたの会社の「設計図」ができあがります。まずは★のついた8章から始めましょう。</p>`;
+    const greet = el('div', { class: 'hero-greet' }, await mascot('mascot-big'), el('div', { class: 'bubble' }, 'こんにちは、くるりんです。会社が自走するまで、いっしょに走ります！'));
+    left.prepend(greet);
     left.append(el('div', { class: 'row' },
       el('a', { class: 'btn primary', href: '#ch-' + next.id }, Object.keys(S.a).length ? `続きから（第${+next.id}章）` : '第0章からはじめる'),
       el('a', { class: 'btn', href: '#blueprint' }, 'わが社の設計図を見る')));
@@ -709,7 +778,7 @@
         const inner = [el('span', { class: 'num' }, done ? '✓' : String(+c.id)), el('span', null, el('span', { class: 't' }, c.title), el('br'), el('span', { class: 'm' }, meta))];
         steps.append(c.file ? el('a', { class: cls, href: '#ch-' + c.id }, inner) : el('div', { class: cls, 'aria-disabled': 'true' }, inner));
       });
-      trail.append(el('section', { class: 'stage' }, el('div', { class: 'stage-head' }, el('b', null, st.name), el('span', null, st.lead)), steps));
+      trail.append(el('section', { class: 'stage' }, el('div', { class: 'stage-head' }, el('span', { class: 'ico', 'aria-hidden': 'true' }, STAGE_ICON[st.key] || '📘'), el('b', null, st.name), el('span', null, st.lead)), steps));
     });
 
     app.replaceChildren(hero,
@@ -763,6 +832,36 @@
       g.before(det);
       let n = g; while (n) { const nx = n.nextSibling; det.append(n); n = nx; }
     }
+    // 挿絵・扉絵・くるりんのヒント・吹き出し
+    await inlineSvgs(prose);
+    if (m.cover) {
+      const n = svgNode(await svgText('assets/img/' + m.cover));
+      if (n) doc.querySelector('.doc-head').prepend(el('figure', { class: 'cover' }, n));
+    }
+    const tipM = await mascot();
+    prose.querySelectorAll('blockquote').forEach(bq => {
+      if (!bq.textContent.trim().startsWith('💡')) return;
+      bq.classList.add('tip');
+      const body = el('div', { class: 'body' });
+      while (bq.firstChild) body.append(bq.firstChild);
+      bq.append(tipM.cloneNode(true), body);
+    });
+    prose.querySelectorAll('h3').forEach(h => {
+      if (!h.textContent.includes('こんなこと')) return;
+      const ul = h.nextElementSibling;
+      if (ul && ul.tagName === 'UL') ul.classList.add('worries');
+    });
+    heads.forEach(h => {
+      const t = h.firstChild;
+      if (t && t.nodeType === 3 && /^[①-⑧]/.test(t.textContent)) {
+        const c = t.textContent[0]; t.textContent = t.textContent.slice(1).trimStart();
+        h.prepend(el('span', { class: 'badge', 'aria-hidden': 'true' }, c));
+      }
+    });
+    prose.querySelectorAll('td').forEach(td => {
+      const t = td.textContent.trim();
+      if (/^[✕×]/.test(t)) td.classList.add('ng'); else if (/^[◯○]/.test(t)) td.classList.add('ok');
+    });
     doc.append(prose);
 
     // 前後の章
@@ -779,7 +878,11 @@
     const meter = el('i', { style: `width:${p.ratio * 100}%` });
     const ptxt = el('span');
     const upd = () => { const q = progress(ch); meter.style.width = q.ratio * 100 + '%'; ptxt.textContent = `この章のワーク ${q.done} ／ ${q.total}`; };
-    upd(); document.addEventListener('work-change', upd);
+    upd(); onChange(() => {
+      upd();
+      S.meta.done = S.meta.done || {};
+      if (progress(ch).ratio === 1 && !S.meta.done[id]) { S.meta.done[id] = true; save(); celebrate(info); }
+    });
     side.append(el('div', { class: 'prog' }, ptxt, el('div', { class: 'meter' }, meter)));
     side.append(el('h3', null, 'この章の中身'));
     const tocList = el('ol');
@@ -878,6 +981,7 @@
 
   /* ───────── ルーティング ───────── */
   async function route() {
+    viewAbort.abort(); viewAbort = new AbortController();
     const h = (location.hash || '#home').slice(1);
     document.querySelectorAll('[data-nav]').forEach(a => a.classList.toggle('on', a.dataset.nav === h || (h === '' && a.dataset.nav === 'home')));
     try {
@@ -885,7 +989,7 @@
       if (h.startsWith('ch-')) await viewChapter(h.slice(3));
       else if (h === 'blueprint') viewBlueprint();
       else if (h === 'data') viewData();
-      else viewHome();
+      else await viewHome();
       document.title = (h.startsWith('ch-') && chapters[h.slice(3)] ? chapters[h.slice(3)].meta.title + '｜' : '') + '会社が自走する仕組みづくり';
     } catch (e) {
       console.error(e);

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-label="合言葉の3点セットの例。ひだまりケアの合言葉「その人らしさ」をいちばんに。1、言葉。2、意味：支えているのは介護が必要な人ではなく、長い人生を生きてきた一人ひとりのその人。3、こんな行動をする：ケアの前に好きなことやこれまでの暮らしを確かめる、この方はどうしたいかで手順を決める、できることは時間がかかってもご本人にやっていただく。新人さんが読んで同じように動ければOK">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+    <text x="400" y="34" font-size="18" text-anchor="middle" fill="var(--ink, #1d2540)">合言葉は「3点セット」で書く（ひだまりケアの例）</text>
+    <!-- ① 言葉 -->
+    <rect x="20" y="56" width="180" height="70" rx="14" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <text x="110" y="88" font-size="20" text-anchor="middle" fill="#1d2540">① 言葉</text>
+    <text x="110" y="110" font-size="12" text-anchor="middle" fill="#1d2540">短く、覚えやすく</text>
+    <rect x="214" y="56" width="566" height="70" rx="14" fill="var(--surface, #fff)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <text x="497" y="99" font-size="22" text-anchor="middle" fill="var(--ink, #1d2540)">「その人らしさ」をいちばんに</text>
+    <!-- ② 意味 -->
+    <rect x="20" y="140" width="180" height="100" rx="14" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <text x="110" y="186" font-size="20" text-anchor="middle" fill="var(--ink, #1d2540)">② 意味</text>
+    <text x="110" y="210" font-size="12" text-anchor="middle" fill="var(--ink-soft, #545c78)">なぜ大切？</text>
+    <rect x="214" y="140" width="566" height="100" rx="14" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <g font-size="14" fill="var(--ink, #1d2540)">
+      <text x="236" y="172">私たちが支えているのは「介護が必要な人」ではなく、</text>
+      <text x="236" y="196">長い人生を生きてきた一人ひとりの「その人」。</text>
+      <text x="236" y="220">その人がその人らしく暮らせることを、いちばんに考えます。</text>
+    </g>
+    <!-- ③ こんな行動をする -->
+    <rect x="20" y="254" width="180" height="138" rx="14" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <text x="110" y="318" font-size="16" text-anchor="middle" fill="var(--ink, #1d2540)">③ こんな行動をする</text>
+    <text x="110" y="342" font-size="12" text-anchor="middle" fill="var(--ink-soft, #545c78)">目に見える行動を2〜3個</text>
+    <rect x="214" y="254" width="566" height="138" rx="14" fill="var(--surface, #fff)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <rect x="644" y="262" width="126" height="22" rx="11" fill="var(--sun, #f2b01e)"/>
+    <text x="707" y="278" font-size="12" text-anchor="middle" fill="#1d2540">ここがいちばん大事</text>
+    <g fill="var(--leaf, #2f8f6b)">
+      <circle cx="236" cy="295" r="8"/><circle cx="236" cy="329" r="8"/><circle cx="236" cy="363" r="8"/>
+    </g>
+    <g fill="none" stroke="var(--surface, #fff)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M232 295 L235 298 L240 292"/><path d="M232 329 L235 332 L240 326"/><path d="M232 363 L235 366 L240 360"/>
+    </g>
+    <g font-size="14" fill="var(--ink, #1d2540)">
+      <text x="252" y="300">ケアの前に、ご利用者の好きなこと・これまでの暮らしを確かめる</text>
+      <text x="252" y="334">「こっちのほうが早い」ではなく「この方はどうしたいか」で手順を決める</text>
+      <text x="252" y="368">できることは、時間がかかってもご本人にやっていただく</text>
+    </g>
+    <!-- ためし方 -->
+    <rect x="130" y="408" width="540" height="40" rx="20" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2"/>
+    <text x="400" y="433" font-size="14" text-anchor="middle" fill="var(--ink, #1d2540)">✅ 明日入った新人さんが読んで、同じように動ける？ →「はい」ならOK</text>
+  </g>
+</svg>

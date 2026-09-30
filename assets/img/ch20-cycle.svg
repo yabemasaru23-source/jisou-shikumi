@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-label="仕組みを良くし続ける90日サイクル。①ふり返る（この章）→②決める（次の90日作戦）→③やる（30日・60日・90日）→④はかる（作戦会議でものさしを見る）→①に戻る、と円を回る。真ん中に「90日で1周・1年で4周」">
+  <defs>
+    <marker id="c20-arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="16" markerHeight="16" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="var(--ink-soft, #545c78)"/>
+    </marker>
+  </defs>
+  <!-- 輪 -->
+  <circle cx="400" cy="230" r="160" fill="none" stroke="var(--sky, #dbe7fb)" stroke-width="18"/>
+  <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="4" stroke-linecap="round" marker-end="url(#c20-arrow)">
+    <path d="M507.1 111.1 A160 160 0 0 1 553.8 185.9"/>
+    <path d="M553.8 274.1 A160 160 0 0 1 507.1 348.9"/>
+    <path d="M292.9 348.9 A160 160 0 0 1 246.2 274.1"/>
+    <path d="M246.2 185.9 A160 160 0 0 1 292.9 111.1"/>
+  </g>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- 真ん中 -->
+    <circle cx="400" cy="230" r="95" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <text x="400" y="222" font-size="24" fill="var(--ink, #1d2540)">90日で1周</text>
+    <text x="400" y="254" font-size="18" fill="var(--ink, #1d2540)">1年で4周</text>
+    <text x="400" y="280" font-size="12" fill="var(--ink-soft, #545c78)">季節が変わるたびに</text>
+    <!-- ① ふり返る -->
+    <rect x="300" y="45" width="200" height="70" rx="16" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <text x="400" y="76" font-size="18" fill="#1d2540">① ふり返る</text>
+    <text x="400" y="100" font-size="12" fill="#1d2540">この章でふり返りシート</text>
+    <!-- ② 決める -->
+    <rect x="550" y="195" width="200" height="70" rx="16" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <text x="650" y="226" font-size="18" fill="var(--ink, #1d2540)">② 決める</text>
+    <text x="650" y="250" font-size="12" fill="var(--ink-soft, #545c78)">次の90日作戦をつくる</text>
+    <!-- ③ やる -->
+    <rect x="300" y="345" width="200" height="70" rx="16" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <text x="400" y="376" font-size="18" fill="var(--ink, #1d2540)">③ やる</text>
+    <text x="400" y="400" font-size="12" fill="var(--ink-soft, #545c78)">30日・60日・90日で進める</text>
+    <!-- ④ はかる -->
+    <rect x="50" y="195" width="200" height="70" rx="16" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <text x="150" y="226" font-size="18" fill="var(--ink, #1d2540)">④ はかる</text>
+    <text x="150" y="250" font-size="12" fill="var(--ink-soft, #545c78)">作戦会議でものさしを見る</text>
+    <!-- まとめ -->
+    <text x="400" y="458" font-size="14" fill="var(--ink-soft, #545c78)">90日ごとにこの章へ戻ってくる。それが「仕組みを良くし続ける仕組み」</text>
+  </g>
+</svg>

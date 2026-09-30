@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" aria-label="仕組みづくりの順番を、家が下から建っていく絵で表した図。1 土台は自分を整える（第1〜3章）、2 柱は会社の軸を決める（第4〜5章）、3 間取りは作戦を立てる（第6〜8章）、4 部屋は仕組みをつくる（第9〜19章）。先に決めたことに合わせて、次を決めていく">
+  <!-- 建てる順番の矢印 -->
+  <g stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M52 384 V112"/><path d="M42 124 L52 110 L62 124"/>
+  </g>
+  <!-- 屋根 -->
+  <path d="M80 96 L260 22 L440 96 Z" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- 4 部屋 -->
+  <rect x="100" y="96" width="320" height="80" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+  <g stroke="var(--ink, #1d2540)" stroke-width="2.5" stroke-linecap="round">
+    <path d="M207 96 V176"/><path d="M313 96 V176"/>
+  </g>
+  <g font-size="26" text-anchor="middle">
+    <text x="153" y="146">🗣</text><text x="260" y="146">🤝</text><text x="367" y="146">😊</text>
+  </g>
+  <!-- 3 間取り -->
+  <rect x="100" y="176" width="320" height="80" fill="var(--sun-soft, #fdf0cc)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+  <g stroke="var(--sun, #f2b01e)" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" fill="none">
+    <path d="M207 182 V250"/><path d="M313 182 V250"/><path d="M106 216 H201"/><path d="M319 216 H414"/>
+  </g>
+  <text x="260" y="226" font-size="24" text-anchor="middle">🚩</text>
+  <!-- 2 柱 -->
+  <g fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="108" y="256" width="20" height="80"/><rect x="184" y="256" width="20" height="80"/><rect x="250" y="256" width="20" height="80"/><rect x="316" y="256" width="20" height="80"/><rect x="392" y="256" width="20" height="80"/>
+  </g>
+  <!-- 1 土台 -->
+  <rect x="88" y="336" width="344" height="58" rx="6" fill="var(--sky-ink, #6f86b8)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+  <text x="260" y="374" font-size="24" text-anchor="middle">🧭</text>
+  <path d="M40 398 H460" stroke="var(--leaf, #2f8f6b)" stroke-width="3" stroke-linecap="round"/>
+  <!-- つなぎの点線 -->
+  <g stroke="var(--ink-soft, #545c78)" stroke-width="2" stroke-dasharray="3 6" stroke-linecap="round">
+    <path d="M426 136 H466"/><path d="M426 216 H466"/><path d="M418 296 H466"/><path d="M438 366 H466"/>
+  </g>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+    <!-- ④ -->
+    <rect x="470" y="106" width="310" height="60" rx="14" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <circle cx="498" cy="136" r="16" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="498" y="142" font-size="16" text-anchor="middle" fill="#1d2540">4</text>
+    <text x="524" y="132" font-size="17" fill="var(--ink, #1d2540)">仕組みをつくる</text>
+    <text x="524" y="154" font-size="13" fill="var(--ink-soft, #545c78)">会議・仲間・お客様（第9〜19章）</text>
+    <rect x="704" y="116" width="66" height="24" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="737" y="133" font-size="14" text-anchor="middle" fill="var(--ink, #1d2540)">部屋</text>
+    <!-- ③ -->
+    <rect x="470" y="186" width="310" height="60" rx="14" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <circle cx="498" cy="216" r="16" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="498" y="222" font-size="16" text-anchor="middle" fill="#1d2540">3</text>
+    <text x="524" y="212" font-size="17" fill="var(--ink, #1d2540)">作戦を立てる</text>
+    <text x="524" y="234" font-size="13" fill="var(--ink-soft, #545c78)">3年後のゴール・チーム（第6〜8章）</text>
+    <rect x="704" y="196" width="66" height="24" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="737" y="213" font-size="14" text-anchor="middle" fill="var(--ink, #1d2540)">間取り</text>
+    <!-- ② -->
+    <rect x="470" y="266" width="310" height="60" rx="14" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <circle cx="498" cy="296" r="16" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="498" y="302" font-size="16" text-anchor="middle" fill="#1d2540">2</text>
+    <text x="524" y="292" font-size="17" fill="var(--ink, #1d2540)">会社の軸を決める</text>
+    <text x="524" y="314" font-size="13" fill="var(--ink-soft, #545c78)">合言葉・夢（第4〜5章）</text>
+    <rect x="704" y="276" width="66" height="24" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="737" y="293" font-size="14" text-anchor="middle" fill="var(--ink, #1d2540)">柱</text>
+    <!-- ① -->
+    <rect x="470" y="336" width="310" height="60" rx="14" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <circle cx="498" cy="366" r="16" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="498" y="372" font-size="16" text-anchor="middle" fill="#1d2540">1</text>
+    <text x="524" y="362" font-size="17" fill="var(--ink, #1d2540)">自分を整える</text>
+    <text x="524" y="384" font-size="13" fill="var(--ink-soft, #545c78)">何のために？（第1〜3章）</text>
+    <rect x="704" y="346" width="66" height="24" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="737" y="363" font-size="14" text-anchor="middle" fill="var(--ink, #1d2540)">土台</text>
+    <!-- まとめ -->
+    <rect x="150" y="416" width="500" height="40" rx="20" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2"/>
+    <text x="400" y="441" font-size="15" text-anchor="middle" fill="var(--ink, #1d2540)">下から順番に。先に決めたことに合わせて、次を決める</text>
+  </g>
+</svg>

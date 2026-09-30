@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 310" role="img" aria-label="羅針盤の3つの針のつながり。心が熱くなる瞬間（情熱）をふり返ると、ゆずれないこと（価値観）が見えてくる。価値観がそろうと、人生の目的が1文にまとまる。ワークはステップ1〜3で情熱、ステップ4で価値観、ステップ5で目的の順に進める">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- 3つの円 -->
+    <circle cx="130" cy="120" r="72" fill="var(--sun-soft, #fdf0cc)" stroke="var(--warm, #c0583a)" stroke-width="2.5"/>
+    <circle cx="400" cy="120" r="72" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <circle cx="670" cy="120" r="72" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="3"/>
+    <!-- 羅針盤の目もり -->
+    <g stroke="#1d2540" stroke-width="3" stroke-linecap="round">
+      <path d="M670 50 V60"/><path d="M670 180 V190"/><path d="M600 120 H610"/><path d="M730 120 H740"/>
+    </g>
+    <g font-size="30">
+      <text x="130" y="104">🔥</text><text x="400" y="104">💎</text><text x="670" y="104">🎯</text>
+    </g>
+    <text x="130" y="138" font-size="19" fill="var(--ink, #1d2540)">情熱</text>
+    <text x="400" y="138" font-size="19" fill="var(--ink, #1d2540)">価値観</text>
+    <text x="670" y="138" font-size="19" fill="#1d2540">人生の目的</text>
+    <text x="130" y="162" font-size="12" fill="var(--ink-soft, #545c78)">心が熱くなるのは？</text>
+    <text x="400" y="162" font-size="12" fill="var(--ink-soft, #545c78)">ゆずれないことは？</text>
+    <text x="670" y="162" font-size="12" fill="#1d2540">何のために生きる？</text>
+    <!-- 矢印 -->
+    <g stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M212 120 H316"/><path d="M306 110 L318 120 L306 130"/>
+      <path d="M482 120 H586"/><path d="M576 110 L588 120 L576 130"/>
+    </g>
+    <g font-size="13" fill="var(--ink-soft, #545c78)">
+      <text x="265" y="104">ふり返ると</text>
+      <text x="535" y="104">そろうと</text>
+      <text x="265" y="148">見えてくる</text>
+      <text x="535" y="148">1文になる</text>
+    </g>
+    <!-- ワークの順番 -->
+    <g fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2">
+      <rect x="70" y="212" width="120" height="30" rx="15"/>
+      <rect x="340" y="212" width="120" height="30" rx="15"/>
+      <rect x="610" y="212" width="120" height="30" rx="15"/>
+    </g>
+    <g font-size="14" fill="var(--ink, #1d2540)">
+      <text x="130" y="232">ステップ1〜3</text><text x="400" y="232">ステップ4</text><text x="670" y="232">ステップ5</text>
+    </g>
+    <rect x="200" y="262" width="400" height="36" rx="18" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2"/>
+    <text x="400" y="285" font-size="14" fill="var(--ink, #1d2540)">3つそろって「私の人生の羅針盤」になる</text>
+  </g>
+</svg>

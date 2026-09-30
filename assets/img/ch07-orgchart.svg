@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" aria-label="ひだまりケアの3年後のチーム図。社長の下に地域連携担当（社長兼務）、訪問介護部長（候補：川口真理）、デイサービス部長（社長兼務）、管理部長（候補：石田誠）の4つの役割。訪問介護部長の下にサービス提供責任者3人（うち1人空欄）、ホームヘルパー14人、居宅介護支援の管理者。デイサービス部長の下に第1拠点長（決定：森健太）、第2拠点長（決定：いまの管理者）、第3拠点長（空欄：2028年開設）。管理部長の下に事務・請求担当2人（うち1人空欄）、採用・育成担当（社長兼務）。色とタグで、決定・候補・社長兼務・空欄を見分けられる">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+    <!-- 社長 -->
+    <rect x="290" y="14" width="220" height="54" rx="16" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <text x="400" y="48" font-size="18" text-anchor="middle" fill="#1d2540">👑 社長（日向 陽子）</text>
+    <!-- 線 -->
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M400 68 V88"/><path d="M100 106 V88 H700 V106"/><path d="M300 88 V106"/><path d="M500 88 V106"/>
+      <path d="M222 170 V344"/><path d="M222 216 H238"/><path d="M222 280 H238"/><path d="M222 344 H238"/>
+      <path d="M422 170 V344"/><path d="M422 216 H438"/><path d="M422 280 H438"/><path d="M422 344 H438"/>
+      <path d="M622 170 V280"/><path d="M622 216 H638"/><path d="M622 280 H638"/>
+    </g>
+    <!-- 社長のすぐ下（4つ） -->
+    <rect x="10" y="106" width="180" height="64" rx="14" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="3"/>
+    <rect x="210" y="106" width="180" height="64" rx="14" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <rect x="410" y="106" width="180" height="64" rx="14" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="3"/>
+    <rect x="610" y="106" width="180" height="64" rx="14" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <g font-size="16" text-anchor="middle" fill="var(--ink, #1d2540)">
+      <text x="100" y="132">地域連携担当</text>
+      <text x="300" y="132">訪問介護部長</text>
+      <text x="500" y="132">デイサービス部長</text>
+      <text x="700" y="132">管理部長</text>
+    </g>
+    <!-- タグ（2段目） -->
+    <rect x="20" y="143" width="64" height="22" rx="11" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="1.5"/>
+    <rect x="220" y="143" width="48" height="22" rx="11" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <rect x="420" y="143" width="64" height="22" rx="11" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="1.5"/>
+    <rect x="620" y="143" width="48" height="22" rx="11" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <g font-size="12" text-anchor="middle">
+      <text x="52" y="158" fill="#1d2540">社長兼務</text>
+      <text x="244" y="158" fill="var(--ink, #1d2540)">候補</text>
+      <text x="452" y="158" fill="#1d2540">社長兼務</text>
+      <text x="644" y="158" fill="var(--ink, #1d2540)">候補</text>
+    </g>
+    <g font-size="13" fill="var(--ink, #1d2540)">
+      <text x="92" y="159">日向 陽子</text>
+      <text x="276" y="159">川口 真理</text>
+      <text x="492" y="159">日向 陽子</text>
+      <text x="676" y="159">石田 誠</text>
+    </g>
+    <!-- 地域連携担当のメモ -->
+    <g font-size="12" text-anchor="middle" fill="var(--ink-soft, #545c78)">
+      <text x="100" y="198">2027年4月までに</text>
+      <text x="100" y="216">採用して手わたす</text>
+    </g>
+    <!-- 訪問介護部長の下 -->
+    <rect x="238" y="190" width="150" height="52" rx="10" fill="var(--surface, #fff)" stroke="var(--warm, #c0583a)" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <rect x="238" y="254" width="150" height="52" rx="10" fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="2"/>
+    <rect x="238" y="318" width="150" height="52" rx="10" fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="2"/>
+    <!-- デイサービス部長の下 -->
+    <rect x="438" y="190" width="150" height="52" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <rect x="438" y="254" width="150" height="52" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <rect x="438" y="318" width="150" height="52" rx="10" fill="var(--surface, #fff)" stroke="var(--warm, #c0583a)" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <!-- 管理部長の下 -->
+    <rect x="638" y="190" width="150" height="52" rx="10" fill="var(--surface, #fff)" stroke="var(--warm, #c0583a)" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <rect x="638" y="254" width="150" height="52" rx="10" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="3"/>
+    <g font-size="14" text-anchor="middle" fill="var(--ink, #1d2540)">
+      <text x="313" y="211">サービス提供責任者</text>
+      <text x="313" y="275">ホームヘルパー</text>
+      <text x="313" y="339">居宅介護支援 管理者</text>
+      <text x="513" y="211">第1拠点 拠点長</text>
+      <text x="513" y="275">第2拠点 拠点長</text>
+      <text x="513" y="339">第3拠点 拠点長</text>
+      <text x="713" y="211">事務・請求担当 ×2</text>
+      <text x="713" y="275">採用・育成担当</text>
+    </g>
+    <!-- 下の役割のタグ -->
+    <g stroke-width="2">
+      <rect x="246" y="217" width="44" height="20" rx="10" fill="var(--surface, #fff)" stroke="var(--warm, #c0583a)" stroke-dasharray="4 3"/>
+      <rect x="446" y="217" width="44" height="20" rx="10" fill="var(--surface, #fff)" stroke="var(--leaf, #2f8f6b)"/>
+      <rect x="446" y="281" width="44" height="20" rx="10" fill="var(--surface, #fff)" stroke="var(--leaf, #2f8f6b)"/>
+      <rect x="446" y="345" width="44" height="20" rx="10" fill="var(--surface, #fff)" stroke="var(--warm, #c0583a)" stroke-dasharray="4 3"/>
+      <rect x="646" y="217" width="44" height="20" rx="10" fill="var(--surface, #fff)" stroke="var(--warm, #c0583a)" stroke-dasharray="4 3"/>
+      <rect x="646" y="281" width="60" height="20" rx="10" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="1.5"/>
+    </g>
+    <g font-size="12" text-anchor="middle">
+      <text x="268" y="231" fill="var(--warm, #c0583a)">空欄</text>
+      <text x="468" y="231" fill="var(--leaf, #2f8f6b)">決定</text>
+      <text x="468" y="295" fill="var(--leaf, #2f8f6b)">決定</text>
+      <text x="468" y="359" fill="var(--warm, #c0583a)">空欄</text>
+      <text x="668" y="231" fill="var(--warm, #c0583a)">空欄</text>
+      <text x="676" y="295" fill="#1d2540">社長兼務</text>
+      <text x="313" y="295" fill="var(--ink-soft, #545c78)">14人</text>
+      <text x="313" y="359" fill="var(--ink-soft, #545c78)">ケアマネジャー 3人</text>
+    </g>
+    <g font-size="12" fill="var(--ink, #1d2540)">
+      <text x="296" y="232">3人のうち1人</text>
+      <text x="496" y="232">森 健太</text>
+      <text x="496" y="296">いまの管理者</text>
+      <text x="496" y="360">2028年開設</text>
+      <text x="696" y="232">2人のうち1人</text>
+      <text x="712" y="296">日向 陽子</text>
+    </g>
+    <!-- 凡例 -->
+    <rect x="16" y="386" width="768" height="72" rx="14" fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="1.5"/>
+    <rect x="32" y="398" width="64" height="24" rx="8" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <rect x="222" y="398" width="64" height="24" rx="8" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <rect x="412" y="398" width="64" height="24" rx="8" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="1.5"/>
+    <rect x="602" y="398" width="64" height="24" rx="8" fill="var(--surface, #fff)" stroke="var(--warm, #c0583a)" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <g font-size="12" text-anchor="middle">
+      <text x="64" y="414" fill="var(--ink, #1d2540)">決定</text>
+      <text x="254" y="414" fill="var(--ink, #1d2540)">候補</text>
+      <text x="444" y="414" fill="#1d2540">社長兼務</text>
+      <text x="634" y="414" fill="var(--warm, #c0583a)">空欄</text>
+    </g>
+    <g font-size="12" fill="var(--ink, #1d2540)">
+      <text x="104" y="415">人が決まった役割</text>
+      <text x="294" y="415">候補の人がいる役割</text>
+      <text x="484" y="415">いま社長が兼務中</text>
+      <text x="674" y="415">これから迎える席</text>
+    </g>
+    <text x="400" y="444" font-size="13" text-anchor="middle" fill="var(--ink-soft, #545c78)">社長兼務が3つ、空欄が3つ。見えるようにすることが、手わたす第一歩</text>
+  </g>
+</svg>

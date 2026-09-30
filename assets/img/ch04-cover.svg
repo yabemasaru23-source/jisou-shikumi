@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-label="少年野球のチームが円陣を組み、「全力疾走！声を出す！道具を大切にする！」とチームの約束を言っている。くるりんが「約束があれば、自分で動ける！」と話している">
+  <rect width="800" height="320" rx="24" fill="var(--sky, #dbe7fb)"/>
+  <!-- くも -->
+  <g fill="var(--surface, #fff)" opacity=".85">
+    <ellipse cx="700" cy="60" rx="44" ry="15"/><ellipse cx="732" cy="50" rx="28" ry="15"/>
+    <ellipse cx="330" cy="46" rx="34" ry="12"/><ellipse cx="354" cy="38" rx="22" ry="12"/>
+  </g>
+  <!-- 遠くの丘 -->
+  <ellipse cx="720" cy="250" rx="200" ry="60" fill="var(--sky-ink, #6f86b8)" opacity=".35"/>
+  <!-- グラウンド -->
+  <ellipse cx="400" cy="370" rx="560" ry="140" fill="var(--leaf, #2f8f6b)" opacity=".8"/>
+  <!-- バットとボール -->
+  <line x1="668" y1="292" x2="748" y2="262" stroke="var(--surface, #fff)" stroke-width="9" stroke-linecap="round"/>
+  <line x1="668" y1="292" x2="748" y2="262" stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+  <g transform="translate(700 300)">
+    <circle r="10" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <path d="M-5 -8 Q-1 0 -5 8 M5 -8 Q1 0 5 8" fill="none" stroke="var(--warm, #c0583a)" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+  <!-- 円陣：奥の列（顔が見える） -->
+  <g stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round">
+    <g transform="translate(445 170)">
+      <rect x="-16" y="12" width="32" height="30" rx="10" fill="var(--surface, #fff)"/>
+      <circle r="14" fill="var(--surface, #fff)"/>
+      <path d="M-14 -1 A14 14 0 0 1 14 -1 Z" fill="var(--warm, #c0583a)"/>
+      <circle cx="-5" cy="3" r="1.8" fill="#1d2540" stroke="none"/><circle cx="5" cy="3" r="1.8" fill="#1d2540" stroke="none"/>
+      <ellipse cy="9" rx="3" ry="2.5" fill="#1d2540" stroke="none"/>
+    </g>
+    <g transform="translate(495 166)">
+      <rect x="-16" y="12" width="32" height="30" rx="10" fill="var(--surface, #fff)"/>
+      <circle r="14" fill="var(--surface, #fff)"/>
+      <path d="M-14 -1 A14 14 0 0 1 14 -1 Z" fill="var(--warm, #c0583a)"/>
+      <circle cx="-5" cy="3" r="1.8" fill="#1d2540" stroke="none"/><circle cx="5" cy="3" r="1.8" fill="#1d2540" stroke="none"/>
+      <ellipse cy="9" rx="3" ry="2.5" fill="#1d2540" stroke="none"/>
+    </g>
+    <g transform="translate(545 166)">
+      <rect x="-16" y="12" width="32" height="30" rx="10" fill="var(--surface, #fff)"/>
+      <circle r="14" fill="var(--surface, #fff)"/>
+      <path d="M-14 -1 A14 14 0 0 1 14 -1 Z" fill="var(--warm, #c0583a)"/>
+      <circle cx="-5" cy="3" r="1.8" fill="#1d2540" stroke="none"/><circle cx="5" cy="3" r="1.8" fill="#1d2540" stroke="none"/>
+      <ellipse cy="9" rx="3" ry="2.5" fill="#1d2540" stroke="none"/>
+    </g>
+    <g transform="translate(595 170)">
+      <rect x="-16" y="12" width="32" height="30" rx="10" fill="var(--surface, #fff)"/>
+      <circle r="14" fill="var(--surface, #fff)"/>
+      <path d="M-14 -1 A14 14 0 0 1 14 -1 Z" fill="var(--warm, #c0583a)"/>
+      <circle cx="-5" cy="3" r="1.8" fill="#1d2540" stroke="none"/><circle cx="5" cy="3" r="1.8" fill="#1d2540" stroke="none"/>
+      <ellipse cy="9" rx="3" ry="2.5" fill="#1d2540" stroke="none"/>
+    </g>
+  </g>
+  <!-- 円陣：手前の列（うしろ姿） -->
+  <g stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(420 190)">
+      <line x1="-8" y1="64" x2="-8" y2="82"/><line x1="8" y1="64" x2="8" y2="82"/>
+      <rect x="-20" y="16" width="40" height="50" rx="12" fill="var(--surface, #fff)"/>
+      <circle r="17" fill="var(--surface, #fff)"/>
+      <path d="M-17 2 A17 17 0 0 1 17 2 Z" fill="var(--warm, #c0583a)"/>
+    </g>
+    <g transform="translate(470 192)">
+      <line x1="-8" y1="64" x2="-8" y2="82"/><line x1="8" y1="64" x2="8" y2="82"/>
+      <rect x="-20" y="16" width="40" height="50" rx="12" fill="var(--surface, #fff)"/>
+      <circle r="17" fill="var(--surface, #fff)"/>
+      <path d="M-17 2 A17 17 0 0 1 17 2 Z" fill="var(--warm, #c0583a)"/>
+    </g>
+    <g transform="translate(520 193)">
+      <line x1="-8" y1="64" x2="-8" y2="82"/><line x1="8" y1="64" x2="8" y2="82"/>
+      <rect x="-20" y="16" width="40" height="50" rx="12" fill="var(--surface, #fff)"/>
+      <circle r="17" fill="var(--surface, #fff)"/>
+      <path d="M-17 2 A17 17 0 0 1 17 2 Z" fill="var(--warm, #c0583a)"/>
+    </g>
+    <g transform="translate(570 192)">
+      <line x1="-8" y1="64" x2="-8" y2="82"/><line x1="8" y1="64" x2="8" y2="82"/>
+      <rect x="-20" y="16" width="40" height="50" rx="12" fill="var(--surface, #fff)"/>
+      <circle r="17" fill="var(--surface, #fff)"/>
+      <path d="M-17 2 A17 17 0 0 1 17 2 Z" fill="var(--warm, #c0583a)"/>
+    </g>
+    <g transform="translate(620 190)">
+      <line x1="-8" y1="64" x2="-8" y2="82"/><line x1="8" y1="64" x2="8" y2="82"/>
+      <rect x="-20" y="16" width="40" height="50" rx="12" fill="var(--surface, #fff)"/>
+      <circle r="17" fill="var(--surface, #fff)"/>
+      <path d="M-17 2 A17 17 0 0 1 17 2 Z" fill="var(--warm, #c0583a)"/>
+    </g>
+    <!-- 肩を組む腕 -->
+    <path d="M404 214 Q520 196 636 214" fill="none" stroke-width="4"/>
+  </g>
+  <!-- 背番号 -->
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" font-size="16" text-anchor="middle" fill="var(--sky-ink, #6f86b8)">
+    <text x="420" y="246">1</text><text x="470" y="248">2</text><text x="520" y="249">3</text><text x="570" y="248">4</text><text x="620" y="246">5</text>
+  </g>
+  <!-- チームのかけ声 -->
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <path d="M414 22 h212 a14 14 0 0 1 14 14 v68 a14 14 0 0 1 -14 14 h-92 l-14 18 l-14 -18 h-92 a14 14 0 0 1 -14 -14 v-68 a14 14 0 0 1 14 -14 z" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round"/>
+    <text x="520" y="46" font-size="14" fill="var(--ink-soft, #545c78)">⚾ チームの約束 ＝ 合言葉</text>
+    <text x="520" y="74" font-size="18" fill="var(--ink, #1d2540)">全力疾走！ 声を出す！</text>
+    <text x="520" y="100" font-size="18" fill="var(--ink, #1d2540)">道具を大切にする！</text>
+  </g>
+  <!-- くるりん -->
+  <g transform="translate(60 150) scale(1)">
+    <g transform="translate(60 62)">
+      <g fill="var(--sun, #f2b01e)">
+        <rect x="-9" y="-54" width="18" height="22" rx="6"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(45)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(90)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(135)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(180)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(225)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(270)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(315)"/>
+      </g>
+      <circle r="40" fill="var(--sun, #f2b01e)"/><circle r="31" fill="#ffd866"/>
+      <circle cx="-12" cy="-4" r="5" fill="#1d2540"/><circle cx="12" cy="-4" r="5" fill="#1d2540"/>
+      <circle cx="-10.5" cy="-6" r="1.8" fill="#fff"/><circle cx="13.5" cy="-6" r="1.8" fill="#fff"/>
+      <ellipse cx="-21" cy="8" rx="6" ry="4" fill="#f4845f" opacity=".55"/><ellipse cx="21" cy="8" rx="6" ry="4" fill="#f4845f" opacity=".55"/>
+      <path d="M-9 9 Q0 19 9 9" fill="none" stroke="#1d2540" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+  </g>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+    <path d="M40 60 h220 a14 14 0 0 1 14 14 v28 a14 14 0 0 1 -14 14 h-150 l-14 14 l-2 -14 h-54 a14 14 0 0 1 -14 -14 v-28 a14 14 0 0 1 14 -14 z" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round"/>
+    <text x="150" y="94" font-size="15" text-anchor="middle" fill="var(--ink, #1d2540)">約束があれば、自分で動ける！</text>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 510" role="img" aria-label="会社の夢の完成図の8つの要素マップ。真ん中に夢の完成図のひとこと。上の段に1規模、2社員、3組織。右に4振る舞い。下の段に5設備と道具、6商品とサービス、7お客様の姿。左に8提供している価値">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="400" y="30" font-size="18" fill="var(--ink, #1d2540)">会社の夢の完成図 ― 8つの要素マップ</text>
+    <!-- まわりの8マス -->
+    <g fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5">
+      <rect x="28" y="48" width="240" height="140" rx="16"/>
+      <rect x="280" y="48" width="240" height="140" rx="16"/>
+      <rect x="532" y="48" width="240" height="140" rx="16"/>
+      <rect x="532" y="200" width="240" height="140" rx="16"/>
+      <rect x="532" y="352" width="240" height="140" rx="16"/>
+      <rect x="280" y="352" width="240" height="140" rx="16"/>
+      <rect x="28" y="352" width="240" height="140" rx="16"/>
+      <rect x="28" y="200" width="240" height="140" rx="16"/>
+    </g>
+    <!-- アイコン -->
+    <g font-size="28">
+      <text x="148" y="100">📈</text>
+      <text x="400" y="100">😊</text>
+      <text x="652" y="100">👥</text>
+      <text x="652" y="252">🙇</text>
+      <text x="652" y="404">🏠</text>
+      <text x="400" y="404">🎁</text>
+      <text x="148" y="404">👵</text>
+      <text x="148" y="252">💖</text>
+    </g>
+    <!-- 要素の名前 -->
+    <g font-size="18" fill="var(--ink, #1d2540)">
+      <text x="148" y="142">① 規模</text>
+      <text x="400" y="142">② 社員</text>
+      <text x="652" y="142">③ 組織</text>
+      <text x="652" y="294">④ 振る舞い</text>
+      <text x="652" y="446">⑤ 設備と道具</text>
+      <text x="400" y="446">⑥ 商品とサービス</text>
+      <text x="148" y="446">⑦ お客様の姿</text>
+      <text x="148" y="294">⑧ 提供している価値</text>
+    </g>
+    <!-- 考えるヒント -->
+    <g font-size="12" fill="var(--ink-soft, #545c78)">
+      <text x="148" y="168">売上・利益・拠点の数</text>
+      <text x="400" y="168">人数・お給料・どんな顔で働く？</text>
+      <text x="652" y="168">誰が回す？ 社長は何をしている？</text>
+      <text x="652" y="320">あいさつ・言葉づかい・服装</text>
+      <text x="652" y="472">建物・ITツール・雰囲気</text>
+      <text x="400" y="472">看板の商品・新しいサービス</text>
+      <text x="148" y="472">どんな人？ 使う前と後の変化</text>
+      <text x="148" y="320">お客様や町に届ける「よかった」</text>
+    </g>
+    <!-- 真ん中 -->
+    <rect x="280" y="200" width="240" height="140" rx="16" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="3"/>
+    <text x="400" y="240" font-size="26">🏝</text>
+    <text x="400" y="272" font-size="20" fill="#1d2540">夢の完成図の</text>
+    <text x="400" y="298" font-size="20" fill="#1d2540">ひとこと</text>
+    <text x="400" y="324" font-size="13" fill="#1d2540">〇〇年までに、〇〇になる</text>
+  </g>
+</svg>
