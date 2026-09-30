@@ -1,0 +1,35 @@
+{
+  "stages": [
+    { "key": "0", "name": "はじめに", "lead": "全体の地図と、いまの場所" },
+    { "key": "1", "name": "自分を整える", "lead": "何のために経営するのか" },
+    { "key": "2", "name": "会社の軸を決める", "lead": "合言葉と夢の完成図" },
+    { "key": "3", "name": "作戦を立てる", "lead": "3年後のゴールとチーム" },
+    { "key": "4", "name": "会社を回す", "lead": "会議・任せ方・レシピ" },
+    { "key": "5", "name": "人の仕組み", "lead": "仲間集めと育成" },
+    { "key": "6", "name": "お客様の仕組み", "lead": "約束・選ばれる理由・品質" },
+    { "key": "9", "name": "まとめ", "lead": "ふり返りと次の90日" }
+  ],
+  "chapters": [
+    { "id": "00", "stage": "0", "title": "会社が自走するってどういうこと？", "required": true, "file": "00_はじめに.md" },
+    { "id": "01", "stage": "1", "title": "私の人生の羅針盤", "required": true, "file": "01_私の人生の羅針盤.md" },
+    { "id": "02", "stage": "1", "title": "リーダーのクセ発見", "required": false, "file": null },
+    { "id": "03", "stage": "1", "title": "時間と机のお片づけ", "required": false, "file": null },
+    { "id": "04", "stage": "2", "title": "わが社の合言葉", "required": true, "file": "04_わが社の合言葉.md" },
+    { "id": "05", "stage": "2", "title": "会社の夢の完成図", "required": true, "file": "05_会社の夢の完成図.md" },
+    { "id": "06", "stage": "3", "title": "未来の作戦マップ", "required": true, "file": "06_未来の作戦マップ.md" },
+    { "id": "07", "stage": "3", "title": "3年後のチーム図と役割の約束書", "required": true, "file": "07_3年後のチーム図と役割の約束書.md" },
+    { "id": "08", "stage": "3", "title": "仕組みの宝さがし", "required": false, "file": null },
+    { "id": "09", "stage": "4", "title": "作戦会議のメンバーと会社のリズム", "required": true, "file": "09_作戦会議のメンバーと会社のリズム.md" },
+    { "id": "10", "stage": "4", "title": "任せ方のルールとチームの約束ごと", "required": false, "file": null },
+    { "id": "11", "stage": "4", "title": "会社の取扱説明書と仕事のレシピ", "required": false, "file": null },
+    { "id": "12", "stage": "4", "title": "変化を仲間に広げる", "required": false, "file": null },
+    { "id": "13", "stage": "5", "title": "仲間集めの仕組み", "required": false, "file": null },
+    { "id": "14", "stage": "5", "title": "入社90日の歓迎プラン", "required": false, "file": null },
+    { "id": "15", "stage": "5", "title": "人が育つ仕組み", "required": false, "file": null },
+    { "id": "16", "stage": "6", "title": "お客様との約束と体験マップ", "required": false, "file": null },
+    { "id": "17", "stage": "6", "title": "選ばれる理由と看板サービス", "required": false, "file": null },
+    { "id": "18", "stage": "6", "title": "お客様との出会いの道", "required": false, "file": null },
+    { "id": "19", "stage": "6", "title": "期待をこえるひと手間と品質を守る仕組み", "required": false, "file": null },
+    { "id": "20", "stage": "9", "title": "ふり返りと次の90日作戦", "required": true, "file": "20_ふり返りと次の90日作戦.md" }
+  ]
+}
