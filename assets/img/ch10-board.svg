@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" role="img" aria-label="任せ方ボードの記入例（ひだまりケア）。決めごとごとに、いまの段階（白い丸）から目指す段階（黄色い丸）へ矢印がのびている。シフトの組み方は3から6、備品を買うは1から6、相談・苦情への最初の返事は1から6、新しいご利用者の受け入れは2から6、パートさんの採用は1から4、行事やレクの中身は5から7、100万円までの設備・ITは1から4。右の列には、段階を上げるのに必要な仕組みが書いてある">
+  <defs>
+    <g id="c10-dots" fill="var(--sky-ink, #6f86b8)" opacity=".5">
+      <circle cx="282" r="3"/><circle cx="320" r="3"/><circle cx="358" r="3"/><circle cx="396" r="3"/><circle cx="434" r="3"/><circle cx="472" r="3"/><circle cx="510" r="3"/>
+    </g>
+  </defs>
+  <!-- ボード -->
+  <rect x="12" y="12" width="776" height="376" rx="16" fill="var(--surface, #fff)"/>
+  <rect x="12" y="12" width="776" height="44" rx="16" fill="var(--sun-soft, #fdf0cc)"/>
+  <rect x="12" y="36" width="776" height="20" fill="var(--sun-soft, #fdf0cc)"/>
+  <g stroke="var(--sky, #dbe7fb)" stroke-width="2">
+    <line x1="12" y1="102" x2="788" y2="102"/><line x1="12" y1="148" x2="788" y2="148"/><line x1="12" y1="194" x2="788" y2="194"/>
+    <line x1="12" y1="240" x2="788" y2="240"/><line x1="12" y1="286" x2="788" y2="286"/><line x1="12" y1="332" x2="788" y2="332"/>
+  </g>
+  <g stroke="var(--ink, #1d2540)" stroke-width="2">
+    <line x1="12" y1="56" x2="788" y2="56"/>
+    <line x1="262" y1="12" x2="262" y2="388"/><line x1="534" y1="12" x2="534" y2="388"/>
+  </g>
+  <rect x="12" y="12" width="776" height="376" rx="16" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+  <!-- 段階の目もり -->
+  <use href="#c10-dots" y="79"/><use href="#c10-dots" y="125"/><use href="#c10-dots" y="171"/><use href="#c10-dots" y="217"/>
+  <use href="#c10-dots" y="263"/><use href="#c10-dots" y="309"/><use href="#c10-dots" y="355"/>
+  <!-- 矢印 -->
+  <g fill="none" stroke="var(--warm, #c0583a)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M372 79 H458 M451 73 L458 79 L451 85"/>
+    <path d="M296 125 H458 M451 119 L458 125 L451 131"/>
+    <path d="M296 171 H458 M451 165 L458 171 L451 177"/>
+    <path d="M334 217 H458 M451 211 L458 217 L451 223"/>
+    <path d="M296 263 H382 M375 257 L382 263 L375 269"/>
+    <path d="M448 309 H496 M489 303 L496 309 L489 315"/>
+    <path d="M296 355 H382 M375 349 L382 355 L375 361"/>
+  </g>
+  <!-- いまの段階（白） -->
+  <g fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5">
+    <circle cx="358" cy="79" r="11"/><circle cx="282" cy="125" r="11"/><circle cx="282" cy="171" r="11"/><circle cx="320" cy="217" r="11"/>
+    <circle cx="282" cy="263" r="11"/><circle cx="434" cy="309" r="11"/><circle cx="282" cy="355" r="11"/>
+  </g>
+  <!-- 目指す段階（黄） -->
+  <g fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5">
+    <circle cx="472" cy="79" r="11"/><circle cx="472" cy="125" r="11"/><circle cx="472" cy="171" r="11"/><circle cx="472" cy="217" r="11"/>
+    <circle cx="396" cy="263" r="11"/><circle cx="510" cy="309" r="11"/><circle cx="396" cy="355" r="11"/>
+  </g>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+    <!-- 見出し -->
+    <g font-size="14" text-anchor="middle" fill="var(--ink, #1d2540)">
+      <text x="137" y="40">決めごと</text>
+      <text x="282" y="40">①</text><text x="320" y="40">②</text><text x="358" y="40">③</text><text x="396" y="40">④</text><text x="434" y="40">⑤</text><text x="472" y="40">⑥</text><text x="510" y="40">⑦</text>
+      <text x="661" y="40">段階を上げるのに必要な仕組み</text>
+    </g>
+    <!-- 丸の中の番号 -->
+    <g font-size="12" text-anchor="middle" fill="var(--ink, #1d2540)">
+      <text x="358" y="83">3</text><text x="282" y="129">1</text><text x="282" y="175">1</text><text x="320" y="221">2</text>
+      <text x="282" y="267">1</text><text x="434" y="313">5</text><text x="282" y="359">1</text>
+    </g>
+    <g font-size="12" text-anchor="middle" fill="#1d2540">
+      <text x="472" y="83">6</text><text x="472" y="129">6</text><text x="472" y="175">6</text><text x="472" y="221">6</text>
+      <text x="396" y="267">4</text><text x="510" y="313">7</text><text x="396" y="359">4</text>
+    </g>
+    <!-- 決めごと -->
+    <g font-size="14" fill="var(--ink, #1d2540)">
+      <text x="26" y="84">毎月のシフトの組み方</text>
+      <text x="26" y="130">拠点の備品を買う</text>
+      <text x="26" y="176">相談・苦情への最初の返事</text>
+      <text x="26" y="222">新しいご利用者の受け入れ</text>
+      <text x="26" y="268">拠点のパートさんの採用</text>
+      <text x="26" y="314">行事やレクの中身</text>
+      <text x="26" y="360">100万円までの設備・IT</text>
+    </g>
+    <!-- 必要な仕組み -->
+    <g font-size="13" fill="var(--ink, #1d2540)">
+      <text x="548" y="84">シフトの基本パターン</text>
+      <text x="548" y="130">1回5万円まで・月の予算</text>
+      <text x="548" y="176">対応の手順・当日に報告</text>
+      <text x="548" y="222">受け入れの判断基準</text>
+      <text x="548" y="268">仲間選びの基準と面接シート</text>
+      <text x="548" y="314">年間の行事カレンダーと予算</text>
+      <text x="548" y="360">作戦会議のルールと範囲</text>
+    </g>
+    <!-- 凡例 -->
+    <g font-size="13" fill="var(--ink, #1d2540)">
+      <text x="278" y="415">いまの段階</text>
+      <text x="438" y="415">目指す段階</text>
+      <text x="776" y="415" text-anchor="end" fill="var(--ink-soft, #545c78)">記入例：ひだまりケア</text>
+    </g>
+  </g>
+  <circle cx="262" cy="410" r="10" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+  <path d="M358 410 H414 M407 404 L414 410 L407 416" fill="none" stroke="var(--warm, #c0583a)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="424" cy="410" r="10" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" role="img" aria-label="変化を仲間に広げる6つのステップ。左はしの不安そうな人から、①反対・不安の正体を知る、②変わる理由を伝える、③作戦会議のメンバーで心をそろえる、④伝える計画を立てる、⑤すぐ見える小さな成功、⑥任せて自分ごとにしてもらう、と進み、右はしでは笑顔の仲間が増えている">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="400" y="30" font-size="17" fill="var(--ink, #1d2540)">変化を仲間に広げる6つのステップ</text>
+    <text x="400" y="52" font-size="12" fill="var(--ink-soft, #545c78)">小さな字は、料理にたとえると</text>
+
+    <!-- 左はし：不安な人 -->
+    <g stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round">
+      <path d="M40 216 V194 Q40 172 62 172 Q84 172 84 194 V216 Z" fill="var(--sky-ink, #6f86b8)"/>
+      <circle cx="62" cy="152" r="16" fill="var(--surface, #fff)"/>
+    </g>
+    <g fill="var(--ink, #1d2540)"><circle cx="57" cy="151" r="2"/><circle cx="67" cy="151" r="2"/></g>
+    <g fill="none" stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linecap="round">
+      <path d="M52 145 L59 147"/><path d="M72 145 L65 147"/>
+      <path d="M57 160 Q59.5 157 62 160 Q64.5 163 67 160"/>
+    </g>
+    <text x="62" y="126" font-size="20" fill="var(--warm, #c0583a)">？</text>
+    <text x="62" y="240" font-size="13" fill="var(--ink-soft, #545c78)">反対・不安</text>
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M90 150 Q108 128 122 126"/><path d="M114 120 L124 126 L115 133"/>
+    </g>
+
+    <!-- ステップの箱 -->
+    <g fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="2.5">
+      <rect x="128" y="70" width="160" height="110" rx="14"/>
+      <rect x="316" y="70" width="160" height="110" rx="14"/>
+      <rect x="504" y="70" width="160" height="110" rx="14"/>
+      <rect x="128" y="230" width="160" height="110" rx="14"/>
+    </g>
+    <rect x="316" y="230" width="160" height="110" rx="14" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <rect x="504" y="230" width="160" height="110" rx="14" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+
+    <!-- 番号 -->
+    <g fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2">
+      <circle cx="146" cy="70" r="14"/><circle cx="334" cy="70" r="14"/><circle cx="522" cy="70" r="14"/>
+      <circle cx="146" cy="230" r="14"/><circle cx="334" cy="230" r="14"/><circle cx="522" cy="230" r="14"/>
+    </g>
+    <g font-size="15" fill="#1d2540">
+      <text x="146" y="75">1</text><text x="334" y="75">2</text><text x="522" y="75">3</text>
+      <text x="146" y="235">4</text><text x="334" y="235">5</text><text x="522" y="235">6</text>
+    </g>
+
+    <!-- アイコン -->
+    <g font-size="20">
+      <text x="208" y="106">👂</text><text x="396" y="106">📣</text><text x="584" y="106">🤝</text>
+      <text x="208" y="266">🗓</text><text x="396" y="266">🌱</text><text x="584" y="266">🙌</text>
+    </g>
+
+    <!-- 見出し -->
+    <g font-size="14" fill="var(--ink, #1d2540)">
+      <text x="208" y="134" font-size="13">反対・不安の正体を知る</text>
+      <text x="396" y="134">変わる理由を伝える</text>
+      <text x="584" y="126">作戦会議のメンバーで</text>
+      <text x="584" y="144">心をそろえる</text>
+      <text x="208" y="294">伝える計画を立てる</text>
+      <text x="396" y="294">すぐ見える小さな成功</text>
+      <text x="584" y="286">任せて</text>
+      <text x="584" y="304">自分ごとにしてもらう</text>
+    </g>
+    <!-- 料理のたとえ -->
+    <g font-size="12" fill="var(--ink-soft, #545c78)">
+      <text x="208" y="162">好ききらいを聞く</text>
+      <text x="396" y="162">なぜこの料理か話す</text>
+      <text x="584" y="166">味つけを決めておく</text>
+      <text x="208" y="322">お皿を出す順を決める</text>
+      <text x="396" y="322">まずは一口、味見</text>
+      <text x="584" y="326">いっしょに台所に立つ</text>
+    </g>
+
+    <!-- 矢印 -->
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M292 125 H310"/><path d="M303 118 L312 125 L303 132"/>
+      <path d="M480 125 H498"/><path d="M491 118 L500 125 L491 132"/>
+      <path d="M584 184 V204 H208 V222"/><path d="M201 214 L208 224 L215 214"/>
+      <path d="M292 285 H310"/><path d="M303 278 L312 285 L303 292"/>
+      <path d="M480 285 H498"/><path d="M491 278 L500 285 L491 292"/>
+      <path d="M668 285 H682"/><path d="M676 278 L685 285 L676 292"/>
+    </g>
+
+    <!-- 右はし：笑顔の仲間 -->
+    <g stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round">
+      <path d="M707 290 V274 Q707 258 721 258 Q735 258 735 274 V290 Z" fill="var(--sky-ink, #6f86b8)"/>
+      <circle cx="721" cy="244" r="12" fill="var(--surface, #fff)"/>
+      <path d="M741 290 V274 Q741 258 755 258 Q769 258 769 274 V290 Z" fill="var(--warm, #c0583a)"/>
+      <circle cx="755" cy="244" r="12" fill="var(--surface, #fff)"/>
+      <path d="M690 318 V300 Q690 284 705 284 Q720 284 720 300 V318 Z" fill="var(--leaf, #2f8f6b)"/>
+      <circle cx="705" cy="270" r="13" fill="var(--surface, #fff)"/>
+      <path d="M724 318 V300 Q724 284 739 284 Q754 284 754 300 V318 Z" fill="var(--sun, #f2b01e)"/>
+      <circle cx="739" cy="270" r="13" fill="var(--surface, #fff)"/>
+      <path d="M758 318 V300 Q758 284 773 284 Q788 284 788 300 V318 Z" fill="var(--leaf-soft, #dcf1e8)"/>
+      <circle cx="773" cy="270" r="13" fill="var(--surface, #fff)"/>
+    </g>
+    <g fill="var(--ink, #1d2540)">
+      <circle cx="717" cy="243" r="1.6"/><circle cx="725" cy="243" r="1.6"/>
+      <circle cx="751" cy="243" r="1.6"/><circle cx="759" cy="243" r="1.6"/>
+      <circle cx="700" cy="268" r="1.8"/><circle cx="710" cy="268" r="1.8"/>
+      <circle cx="734" cy="268" r="1.8"/><circle cx="744" cy="268" r="1.8"/>
+      <circle cx="768" cy="268" r="1.8"/><circle cx="778" cy="268" r="1.8"/>
+    </g>
+    <g fill="none" stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linecap="round">
+      <path d="M717 248 Q721 252 725 248"/><path d="M751 248 Q755 252 759 248"/>
+      <path d="M700 274 Q705 279 710 274"/><path d="M734 274 Q739 279 744 274"/><path d="M768 274 Q773 279 778 274"/>
+    </g>
+    <path d="M738 222 C 733 215, 724 222, 738 231 C 752 222, 743 215, 738 222 Z" fill="var(--warm, #c0583a)"/>
+    <text x="739" y="340" font-size="13" fill="var(--leaf, #2f8f6b)">仲間が増える！</text>
+  </g>
+</svg>

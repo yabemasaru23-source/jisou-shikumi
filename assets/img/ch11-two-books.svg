@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" aria-label="会社の取扱説明書と仕事のレシピの関係。上に全員が読む、会社に1冊の「会社の取扱説明書」。表紙には合言葉・夢の完成図・3年後のゴールと8つの作戦・チーム図・会社のリズム・毎日のルールがのっていて、たとえると家族のルールブック。その下に線でつながって、事務・請求担当の「毎月の請求」、拠点長の「送迎ルート」、生活相談員の「はじめての日の迎え入れ」など、役割ごとの仕事のレシピのカードが何枚も並ぶ。レシピはその仕事をする人が読み、仕事の数だけ何枚もあり、たとえると料理のレシピ">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- 取扱説明書（本） -->
+    <g transform="translate(-10 0)">
+      <rect x="240" y="22" width="360" height="160" rx="10" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+      <rect x="214" y="16" width="26" height="160" rx="8" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+      <rect x="230" y="16" width="360" height="160" rx="10" fill="var(--sun-soft, #fdf0cc)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+      <text x="410" y="48" font-size="20" fill="var(--ink, #1d2540)">📘 会社の取扱説明書</text>
+      <g font-size="12" fill="var(--ink, #1d2540)">
+        <g fill="var(--surface, #fff)" stroke="var(--sun, #f2b01e)" stroke-width="2">
+          <rect x="258" y="64" width="52" height="24" rx="12"/><rect x="318" y="64" width="76" height="24" rx="12"/><rect x="402" y="64" width="160" height="24" rx="12"/>
+          <rect x="284" y="98" width="60" height="24" rx="12"/><rect x="352" y="98" width="88" height="24" rx="12"/><rect x="448" y="98" width="88" height="24" rx="12"/>
+        </g>
+        <text x="284" y="81">合言葉</text><text x="356" y="81">夢の完成図</text><text x="482" y="81">3年後のゴールと8つの作戦</text>
+        <text x="314" y="115">チーム図</text><text x="396" y="115">会社のリズム</text><text x="492" y="115">毎日のルール</text>
+      </g>
+      <text x="410" y="158" font-size="13" fill="var(--ink-soft, #545c78)">🏠 たとえ：家族のルールブック</text>
+    </g>
+    <!-- 本の左右の札 -->
+    <rect x="34" y="62" width="150" height="34" rx="17" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="109" y="85" font-size="15" fill="#1d2540">👥 全員が読む</text>
+    <rect x="616" y="62" width="150" height="34" rx="17" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="691" y="85" font-size="15" fill="#1d2540">会社に1冊</text>
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="2" stroke-dasharray="3 6" stroke-linecap="round">
+      <line x1="188" y1="79" x2="200" y2="79"/><line x1="592" y1="79" x2="612" y2="79"/>
+    </g>
+    <!-- つなぐ線 -->
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="400" y1="178" x2="400" y2="204"/>
+      <line x1="400" y1="236" x2="400" y2="246"/>
+      <path d="M125 262 V246 H678 V262"/>
+      <line x1="310" y1="246" x2="310" y2="262"/><line x1="495" y1="246" x2="495" y2="262"/>
+    </g>
+    <rect x="320" y="204" width="160" height="32" rx="16" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2"/>
+    <text x="400" y="226" font-size="15" fill="var(--ink, #1d2540)">🍳 仕事のレシピ</text>
+    <!-- レシピのカード -->
+    <g stroke="var(--leaf, #2f8f6b)" stroke-width="2.5">
+      <rect x="40" y="262" width="170" height="140" rx="12" fill="var(--surface, #fff)"/>
+      <rect x="225" y="262" width="170" height="140" rx="12" fill="var(--surface, #fff)"/>
+      <rect x="410" y="262" width="170" height="140" rx="12" fill="var(--surface, #fff)"/>
+      <rect x="595" y="262" width="166" height="140" rx="12" fill="none" stroke-dasharray="7 6" stroke-linecap="round"/>
+    </g>
+    <g fill="var(--leaf-soft, #dcf1e8)">
+      <path d="M52 262 H198 a12 12 0 0 1 12 12 V292 H40 V274 a12 12 0 0 1 12 -12 Z"/>
+      <path d="M237 262 H383 a12 12 0 0 1 12 12 V292 H225 V274 a12 12 0 0 1 12 -12 Z"/>
+      <path d="M422 262 H568 a12 12 0 0 1 12 12 V292 H410 V274 a12 12 0 0 1 12 -12 Z"/>
+    </g>
+    <g fill="none" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5">
+      <rect x="40" y="262" width="170" height="140" rx="12"/><rect x="225" y="262" width="170" height="140" rx="12"/><rect x="410" y="262" width="170" height="140" rx="12"/>
+    </g>
+    <g font-size="13" fill="var(--ink, #1d2540)">
+      <text x="125" y="282">事務・請求担当</text><text x="310" y="282">拠点長</text><text x="495" y="282">生活相談員</text>
+    </g>
+    <g font-size="16" fill="var(--ink, #1d2540)">
+      <text x="125" y="326">毎月の請求</text><text x="310" y="326">送迎ルート</text>
+      <text x="495" y="316" font-size="15">はじめての日の</text><text x="495" y="336" font-size="15">迎え入れ</text>
+    </g>
+    <g fill="none" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M72 360 l4 4 l7 -8"/><line x1="92" y1="360" x2="176" y2="360"/><path d="M72 382 l4 4 l7 -8"/><line x1="92" y1="382" x2="160" y2="382"/>
+      <path d="M257 360 l4 4 l7 -8"/><line x1="277" y1="360" x2="361" y2="360"/><path d="M257 382 l4 4 l7 -8"/><line x1="277" y1="382" x2="345" y2="382"/>
+      <path d="M442 360 l4 4 l7 -8"/><line x1="462" y1="360" x2="546" y2="360"/><path d="M442 382 l4 4 l7 -8"/><line x1="462" y1="382" x2="530" y2="382"/>
+    </g>
+    <text x="678" y="326" font-size="22" fill="var(--leaf, #2f8f6b)">＋</text>
+    <text x="678" y="356" font-size="13" fill="var(--ink-soft, #545c78)">ほかの仕事も</text>
+    <text x="678" y="376" font-size="13" fill="var(--ink-soft, #545c78)">1枚ずつ</text>
+    <!-- レシピの札 -->
+    <rect x="40" y="420" width="250" height="34" rx="17" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2"/>
+    <text x="165" y="443" font-size="14" fill="var(--ink, #1d2540)">👤 その仕事をする人が読む</text>
+    <rect x="306" y="420" width="210" height="34" rx="17" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2"/>
+    <text x="411" y="443" font-size="14" fill="var(--ink, #1d2540)">📚 仕事の数だけ何枚も</text>
+    <text x="646" y="443" font-size="14" fill="var(--ink-soft, #545c78)">🥄 たとえ：料理のレシピ</text>
+  </g>
+</svg>

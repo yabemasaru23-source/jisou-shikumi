@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" aria-label="会社の足を引っぱる9つのクセ。決めごとより自由、目の前でいっぱい、心配で足が止まる、新しいことに目移り、なんでも自分でやっちゃう、やさしすぎて言えない、走りつづけてしまう、気まずい話はあと回し、わかってほしい。誰でも2つか3つは強く出ている">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="400" y="38" font-size="20" fill="var(--ink, #1d2540)">会社の足を引っぱる「9つのクセ」</text>
+    <!-- カード -->
+    <g fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5">
+      <rect x="30" y="64" width="236" height="104" rx="14"/><rect x="282" y="64" width="236" height="104" rx="14"/><rect x="534" y="64" width="236" height="104" rx="14"/>
+      <rect x="30" y="184" width="236" height="104" rx="14"/><rect x="282" y="184" width="236" height="104" rx="14"/><rect x="534" y="184" width="236" height="104" rx="14"/>
+      <rect x="30" y="304" width="236" height="104" rx="14"/><rect x="282" y="304" width="236" height="104" rx="14"/><rect x="534" y="304" width="236" height="104" rx="14"/>
+    </g>
+    <!-- 番号 -->
+    <g fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2">
+      <circle cx="54" cy="88" r="13"/><circle cx="306" cy="88" r="13"/><circle cx="558" cy="88" r="13"/>
+      <circle cx="54" cy="208" r="13"/><circle cx="306" cy="208" r="13"/><circle cx="558" cy="208" r="13"/>
+      <circle cx="54" cy="328" r="13"/><circle cx="306" cy="328" r="13"/><circle cx="558" cy="328" r="13"/>
+    </g>
+    <g font-size="13" fill="var(--ink, #1d2540)">
+      <text x="54" y="93">1</text><text x="306" y="93">2</text><text x="558" y="93">3</text>
+      <text x="54" y="213">4</text><text x="306" y="213">5</text><text x="558" y="213">6</text>
+      <text x="54" y="333">7</text><text x="306" y="333">8</text><text x="558" y="333">9</text>
+    </g>
+    <!-- アイコン -->
+    <g font-size="30">
+      <text x="148" y="118">🕊️</text><text x="400" y="118">🏃</text><text x="652" y="118">🌧️</text>
+      <text x="148" y="238">🦋</text><text x="400" y="238">🔧</text><text x="652" y="238">🧸</text>
+      <text x="148" y="358">🚀</text><text x="400" y="358">🐢</text><text x="652" y="358">🌻</text>
+    </g>
+    <!-- 名前 -->
+    <g font-size="16" fill="var(--ink, #1d2540)">
+      <text x="148" y="152">決めごとより自由</text><text x="400" y="152">目の前でいっぱい</text><text x="652" y="152">心配で足が止まる</text>
+      <text x="148" y="272">新しいことに目移り</text><text x="400" y="272">なんでも自分でやっちゃう</text><text x="652" y="272">やさしすぎて言えない</text>
+      <text x="148" y="392">走りつづけてしまう</text><text x="400" y="392">気まずい話はあと回し</text><text x="652" y="392">わかってほしい</text>
+    </g>
+    <text x="400" y="446" font-size="14" fill="var(--ink-soft, #545c78)">誰でも、2つか3つは強く出ているクセがあります（良い・悪いではありません）</text>
+  </g>
+</svg>

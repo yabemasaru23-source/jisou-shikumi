@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="「また頼みたい」という屋根を、ひと手間・お届けの流れ・品質を守るの3本の柱が支えている。柱の下の土台には、わが社の合言葉と、お客様との約束がある">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- 屋根 -->
+    <path d="M400 18 L724 128 H76 Z" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="400" y="80" font-size="13" fill="#1d2540">お客様の気持ち</text>
+    <text x="400" y="112" font-size="22" fill="#1d2540">😊「また頼みたい」</text>
+    <rect x="100" y="128" width="600" height="18" rx="4" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <!-- 3本の柱 -->
+    <g fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5">
+      <rect x="130" y="146" width="140" height="180"/>
+      <rect x="330" y="146" width="140" height="180"/>
+      <rect x="530" y="146" width="140" height="180"/>
+    </g>
+    <g fill="var(--leaf, #2f8f6b)">
+      <rect x="120" y="146" width="160" height="10" rx="3"/><rect x="320" y="146" width="160" height="10" rx="3"/><rect x="520" y="146" width="160" height="10" rx="3"/>
+      <rect x="120" y="318" width="160" height="10" rx="3"/><rect x="320" y="318" width="160" height="10" rx="3"/><rect x="520" y="318" width="160" height="10" rx="3"/>
+    </g>
+    <g font-size="26">
+      <text x="200" y="200">🎁</text><text x="400" y="200">🚚</text><text x="600" y="200">🛡️</text>
+    </g>
+    <g font-size="18" fill="var(--ink, #1d2540)">
+      <text x="200" y="238">ひと手間</text>
+      <text x="400" y="238">お届けの流れ</text>
+      <text x="600" y="238">品質を守る</text>
+    </g>
+    <g font-size="12" fill="var(--ink-soft, #545c78)">
+      <text x="200" y="266">期待をこえる</text><text x="200" y="286">6つの場面でさがす</text>
+      <text x="400" y="266">5つのうれしい</text><text x="400" y="286">4つのステップで直す</text>
+      <text x="600" y="266">5つのステップ</text><text x="600" y="286">失敗に先回りする</text>
+    </g>
+    <!-- 土台 -->
+    <rect x="80" y="330" width="640" height="48" rx="10" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <text x="400" y="360" font-size="16" fill="var(--ink, #1d2540)">🗣 わが社の合言葉（第4章）</text>
+    <rect x="56" y="382" width="688" height="52" rx="12" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <text x="400" y="414" font-size="16" fill="var(--ink, #1d2540)">🤝 お客様との約束（どんな気持ちになってほしいか）</text>
+  </g>
+</svg>

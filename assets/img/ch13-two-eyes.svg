@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="能力と合言葉の4つの組み合わせを2×2のマスで表した図。横は能力、たては合言葉。右上の能力も合言葉もそろった人は迷わず仲間に。左上の合言葉は合うが能力はこれからの人は育てる。右下の能力は高いが合言葉が合わない人はいちばん注意。左下のどちらも合わない人は見送る">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- 軸 -->
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M150 374 V42"/><path d="M143 52 L150 42 L157 52"/>
+      <path d="M150 374 H730"/><path d="M720 367 L730 374 L720 381"/>
+    </g>
+    <g font-size="15" fill="var(--ink, #1d2540)">
+      <text x="84" y="108">合言葉が</text><text x="84" y="128">合う</text>
+      <text x="84" y="278">合言葉が</text><text x="84" y="298">合わない</text>
+      <text x="305" y="402">能力はこれから</text>
+      <text x="595" y="402">能力が高い</text>
+    </g>
+    <!-- 左上：育てる -->
+    <rect x="170" y="40" width="270" height="150" rx="16" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <text x="305" y="68" font-size="12" fill="var(--ink-soft, #545c78)">合言葉 ◯ ・ 能力 これから</text>
+    <text x="305" y="114" font-size="20" fill="var(--ink, #1d2540)">🌱 育てる</text>
+    <text x="305" y="146" font-size="13" fill="var(--ink-soft, #545c78)">能力は、入ってから育てられる</text>
+    <!-- 右上：迷わず仲間に -->
+    <rect x="460" y="40" width="270" height="150" rx="16" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <text x="595" y="68" font-size="12" fill="var(--ink-soft, #545c78)">合言葉 ◯ ・ 能力 ◯</text>
+    <text x="595" y="114" font-size="20" fill="var(--ink, #1d2540)">🤝 迷わず仲間に</text>
+    <text x="595" y="146" font-size="13" fill="var(--ink-soft, #545c78)">能力も合言葉も、そろっている</text>
+    <!-- 左下：見送る -->
+    <rect x="170" y="210" width="270" height="150" rx="16" fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="2.5" stroke-dasharray="8 6"/>
+    <text x="305" y="238" font-size="12" fill="var(--ink-soft, #545c78)">合言葉 ✕ ・ 能力 これから</text>
+    <text x="305" y="284" font-size="20" fill="var(--ink, #1d2540)">👋 見送る</text>
+    <text x="305" y="316" font-size="13" fill="var(--ink-soft, #545c78)">おたがいのために、ほかの道を</text>
+    <!-- 右下：いちばん注意 -->
+    <rect x="460" y="210" width="270" height="150" rx="16" fill="var(--surface, #fff)" stroke="var(--warm, #c0583a)" stroke-width="3.5"/>
+    <text x="595" y="238" font-size="12" fill="var(--ink-soft, #545c78)">合言葉 ✕ ・ 能力 ◯</text>
+    <text x="595" y="284" font-size="20" fill="var(--warm, #c0583a)">⚠️ いちばん注意</text>
+    <text x="595" y="312" font-size="13" fill="var(--ink-soft, #545c78)">能力が高いほど、</text>
+    <text x="595" y="332" font-size="13" fill="var(--ink-soft, #545c78)">まわりへの影響も大きい</text>
+  </g>
+</svg>

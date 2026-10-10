@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-label="リーダーの成長チェックの5つの力。左はリーダーの力として、1 行き先を示す力、2 決めて、やりぬく力、3 心に火をつける伝え方。右はまとめ役の力として、4 人を育て、チームを回す力、5 仕組みと数字で回す力">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- リーダーの力 -->
+    <rect x="30" y="20" width="420" height="330" rx="18" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <text x="240" y="52" font-size="18" fill="var(--ink, #1d2540)">🧭 リーダーの力</text>
+    <text x="240" y="74" font-size="12" fill="var(--ink-soft, #545c78)">行き先を示し、みんなを動かす</text>
+    <g fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2">
+      <rect x="54" y="94" width="372" height="72" rx="12"/>
+      <rect x="54" y="178" width="372" height="72" rx="12"/>
+      <rect x="54" y="262" width="372" height="72" rx="12"/>
+    </g>
+    <g font-size="16" fill="var(--ink, #1d2540)">
+      <text x="240" y="124">行き先を示す力</text>
+      <text x="240" y="208">決めて、やりぬく力</text>
+      <text x="240" y="292">心に火をつける伝え方</text>
+    </g>
+    <g font-size="12" fill="var(--ink-soft, #545c78)">
+      <text x="240" y="150">先を見て「ここを目指そう」と描ける</text>
+      <text x="240" y="234">迷う場面でも決め、最後までやる</text>
+      <text x="240" y="318">気持ちをこめて伝え、仲間をその気にさせる</text>
+    </g>
+    <!-- まとめ役の力 -->
+    <rect x="470" y="20" width="300" height="330" rx="18" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <text x="620" y="52" font-size="18" fill="var(--ink, #1d2540)">🔧 まとめ役の力</text>
+    <text x="620" y="74" font-size="12" fill="var(--ink-soft, #545c78)">チームを回し、人を育てる</text>
+    <g fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2">
+      <rect x="494" y="100" width="252" height="100" rx="12"/>
+      <rect x="494" y="226" width="252" height="100" rx="12"/>
+    </g>
+    <g font-size="16" fill="var(--ink, #1d2540)">
+      <text x="620" y="140">人を育て、チームを回す力</text>
+      <text x="620" y="266">仕組みと数字で回す力</text>
+    </g>
+    <g font-size="12" fill="var(--ink-soft, #545c78)">
+      <text x="620" y="166">部下を育て、問題を人のせいにせず</text>
+      <text x="620" y="184">解決する</text>
+      <text x="620" y="292">仕組みをつくり、数字を読んで</text>
+      <text x="620" y="310">手を打つ</text>
+    </g>
+    <!-- 番号 -->
+    <g fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2">
+      <circle cx="58" cy="98" r="12"/><circle cx="58" cy="182" r="12"/><circle cx="58" cy="266" r="12"/>
+    </g>
+    <g fill="var(--leaf-soft, #dcf1e8)" stroke="var(--ink, #1d2540)" stroke-width="2">
+      <circle cx="498" cy="104" r="12"/><circle cx="498" cy="230" r="12"/>
+    </g>
+    <g font-size="13">
+      <text x="58" y="103" fill="#1d2540">1</text><text x="58" y="187" fill="#1d2540">2</text><text x="58" y="271" fill="#1d2540">3</text>
+      <text x="498" y="109" fill="var(--ink, #1d2540)">4</text><text x="498" y="235" fill="var(--ink, #1d2540)">5</text>
+    </g>
+    <text x="400" y="382" font-size="13" fill="var(--ink-soft, #545c78)">点数で落ちこむためではなく、どの力から伸ばすかを決めるための地図</text>
+  </g>
+</svg>

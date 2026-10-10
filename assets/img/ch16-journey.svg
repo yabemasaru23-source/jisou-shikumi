@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" aria-label="お客様の体験マップ。いちばん上に、マップ全体にかかる「お客様との約束」の旗。その下に旅の道すじのように、知る・問い合わせる・相談する・使い始める・使いつづける・お別れの6つの場面が左から右へ並ぶ。各場面の下に、お客様の目的・心配や気持ち・担当・道具・作業・約束を守る行動の6段が積み重なり、いちばん下の約束を守る行動の段が黄色で目立っている">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- 約束の旗 -->
+    <g stroke="var(--ink, #1d2540)" stroke-width="3" stroke-linecap="round"><line x1="140" y1="10" x2="140" y2="66"/><line x1="778" y1="10" x2="778" y2="66"/></g>
+    <rect x="148" y="12" width="622" height="38" rx="10" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <text x="459" y="37" font-size="17" fill="#1d2540">🚩 お客様との約束（どの場面でも守る）</text>
+    <!-- 旅の道すじ -->
+    <path d="M150 74 Q172 82 194 74 Q247 66 300 74 Q353 82 406 74 Q459 66 512 74 Q565 82 618 74 Q671 66 724 74 Q750 66 770 74" fill="none" stroke="var(--sun-soft, #fdf0cc)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M150 74 Q172 82 194 74 Q247 66 300 74 Q353 82 406 74 Q459 66 512 74 Q565 82 618 74 Q671 66 724 74 Q750 66 770 74" fill="none" stroke="var(--sun, #f2b01e)" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+    <rect x="16" y="92" width="122" height="30" rx="10" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="77" y="112" font-size="13" fill="var(--ink, #1d2540)">場面 →</text>
+    <circle cx="194" cy="74" r="11" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/><text x="194" y="78" font-size="12" fill="#1d2540">1</text>
+    <rect x="146" y="92" width="96" height="30" rx="10" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/><text x="194" y="112" font-size="13" fill="var(--ink, #1d2540)">知る</text>
+    <circle cx="300" cy="74" r="11" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/><text x="300" y="78" font-size="12" fill="#1d2540">2</text>
+    <rect x="252" y="92" width="96" height="30" rx="10" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/><text x="300" y="112" font-size="13" fill="var(--ink, #1d2540)">問い合わせる</text>
+    <circle cx="406" cy="74" r="11" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/><text x="406" y="78" font-size="12" fill="#1d2540">3</text>
+    <rect x="358" y="92" width="96" height="30" rx="10" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/><text x="406" y="112" font-size="13" fill="var(--ink, #1d2540)">相談する</text>
+    <circle cx="512" cy="74" r="11" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/><text x="512" y="78" font-size="12" fill="#1d2540">4</text>
+    <rect x="464" y="92" width="96" height="30" rx="10" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/><text x="512" y="112" font-size="13" fill="var(--ink, #1d2540)">使い始める</text>
+    <circle cx="618" cy="74" r="11" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/><text x="618" y="78" font-size="12" fill="#1d2540">5</text>
+    <rect x="570" y="92" width="96" height="30" rx="10" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/><text x="618" y="112" font-size="13" fill="var(--ink, #1d2540)">使いつづける</text>
+    <circle cx="724" cy="74" r="11" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/><text x="724" y="78" font-size="12" fill="#1d2540">6</text>
+    <rect x="676" y="92" width="96" height="30" rx="10" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/><text x="724" y="112" font-size="13" fill="var(--ink, #1d2540)">お別れ</text>
+    <rect x="16" y="132" width="122" height="48" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2"/><text x="77" y="161" font-size="13" fill="var(--ink, #1d2540)">お客様の目的</text>
+    <rect x="146" y="132" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="194" y="160" font-size="12" fill="var(--ink, #1d2540)">合う所を探す</text>
+    <rect x="252" y="132" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="300" y="160" font-size="12" fill="var(--ink, #1d2540)">すぐ知りたい</text>
+    <rect x="358" y="132" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="406" y="160" font-size="12" fill="var(--ink, #1d2540)">任せて大丈夫か</text>
+    <rect x="464" y="132" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="512" y="152" font-size="12" fill="var(--ink, #1d2540)">わかりやすい</text><text x="512" y="168" font-size="12" fill="var(--ink, #1d2540)">手続き</text>
+    <rect x="570" y="132" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="618" y="152" font-size="12" fill="var(--ink, #1d2540)">楽しく</text><text x="618" y="168" font-size="12" fill="var(--ink, #1d2540)">過ごしてほしい</text>
+    <rect x="676" y="132" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="724" y="152" font-size="12" fill="var(--ink, #1d2540)">最後まで</text><text x="724" y="168" font-size="12" fill="var(--ink, #1d2540)">安心したい</text>
+    <rect x="16" y="186" width="122" height="48" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2"/><text x="77" y="215" font-size="13" fill="var(--ink, #1d2540)">心配・気持ち</text>
+    <rect x="146" y="186" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="194" y="206" font-size="12" fill="var(--ink, #1d2540)">ちがいが</text><text x="194" y="222" font-size="12" fill="var(--ink, #1d2540)">わからない</text>
+    <rect x="252" y="186" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="300" y="206" font-size="12" fill="var(--ink, #1d2540)">何度も</text><text x="300" y="222" font-size="12" fill="var(--ink, #1d2540)">かけたくない</text>
+    <rect x="358" y="186" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="406" y="206" font-size="12" fill="var(--ink, #1d2540)">親が</text><text x="406" y="222" font-size="12" fill="var(--ink, #1d2540)">嫌がらないか</text>
+    <rect x="464" y="186" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="512" y="206" font-size="12" fill="var(--ink, #1d2540)">なじめるか</text><text x="512" y="222" font-size="12" fill="var(--ink, #1d2540)">心配</text>
+    <rect x="570" y="186" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="618" y="206" font-size="12" fill="var(--ink, #1d2540)">中の様子が</text><text x="618" y="222" font-size="12" fill="var(--ink, #1d2540)">見えない</text>
+    <rect x="676" y="186" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="724" y="206" font-size="12" fill="var(--ink, #1d2540)">縁が切れるの</text><text x="724" y="222" font-size="12" fill="var(--ink, #1d2540)">はさびしい</text>
+    <rect x="16" y="240" width="122" height="48" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2"/><text x="77" y="269" font-size="13" fill="var(--ink, #1d2540)">担当</text>
+    <rect x="146" y="240" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="194" y="268" font-size="12" fill="var(--ink, #1d2540)">拠点長</text>
+    <rect x="252" y="240" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="300" y="268" font-size="12" fill="var(--ink, #1d2540)">電話を受けた人</text>
+    <rect x="358" y="240" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="406" y="268" font-size="12" fill="var(--ink, #1d2540)">生活相談員</text>
+    <rect x="464" y="240" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="512" y="268" font-size="12" fill="var(--ink, #1d2540)">拠点長</text>
+    <rect x="570" y="240" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="618" y="268" font-size="12" fill="var(--ink, #1d2540)">その日の担当</text>
+    <rect x="676" y="240" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="724" y="268" font-size="12" fill="var(--ink, #1d2540)">拠点長</text>
+    <rect x="16" y="294" width="122" height="48" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2"/><text x="77" y="323" font-size="13" fill="var(--ink, #1d2540)">道具</text>
+    <rect x="146" y="294" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="194" y="322" font-size="12" fill="var(--ink, #1d2540)">空き状況の一覧</text>
+    <rect x="252" y="294" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="300" y="322" font-size="12" fill="var(--ink, #1d2540)">問い合わせメモ</text>
+    <rect x="358" y="294" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="406" y="322" font-size="12" fill="var(--ink, #1d2540)">聞き取りシート</text>
+    <rect x="464" y="294" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="512" y="322" font-size="12" fill="var(--ink, #1d2540)">ご利用のしおり</text>
+    <rect x="570" y="294" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="618" y="322" font-size="12" fill="var(--ink, #1d2540)">連絡帳</text>
+    <rect x="676" y="294" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="724" y="322" font-size="12" fill="var(--ink, #1d2540)">引きつぎ表</text>
+    <rect x="16" y="348" width="122" height="48" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2"/><text x="77" y="377" font-size="13" fill="var(--ink, #1d2540)">作業</text>
+    <rect x="146" y="348" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="194" y="376" font-size="12" fill="var(--ink, #1d2540)">空きを知らせる</text>
+    <rect x="252" y="348" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="300" y="376" font-size="12" fill="var(--ink, #1d2540)">見学日を決める</text>
+    <rect x="358" y="348" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="406" y="376" font-size="12" fill="var(--ink, #1d2540)">困りごとを聞く</text>
+    <rect x="464" y="348" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="512" y="376" font-size="12" fill="var(--ink, #1d2540)">一日を案内する</text>
+    <rect x="570" y="348" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="618" y="368" font-size="12" fill="var(--ink, #1d2540)">毎回の</text><text x="618" y="384" font-size="12" fill="var(--ink, #1d2540)">ケアと記録</text>
+    <rect x="676" y="348" width="96" height="48" rx="8" fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <text x="724" y="368" font-size="12" fill="var(--ink, #1d2540)">次の所へ</text><text x="724" y="384" font-size="12" fill="var(--ink, #1d2540)">引きつぐ</text>
+    <!-- 約束を守る行動（いちばん大事な段） -->
+    <rect x="10" y="396" width="780" height="66" rx="14" fill="none" stroke="var(--warm, #c0583a)" stroke-width="2.5" stroke-dasharray="7 6" stroke-linecap="round"/>
+    <rect x="16" y="402" width="122" height="54" rx="10" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/><text x="77" y="434" font-size="13" fill="#1d2540">⭐ 約束を守る行動</text>
+    <rect x="146" y="402" width="96" height="54" rx="8" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="194" y="425" font-size="12" fill="#1d2540">安心が見える</text><text x="194" y="441" font-size="12" fill="#1d2540">資料</text>
+    <rect x="252" y="402" width="96" height="54" rx="8" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="300" y="433" font-size="12" fill="#1d2540">その場で答える</text>
+    <rect x="358" y="402" width="96" height="54" rx="8" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="406" y="425" font-size="12" fill="#1d2540">送迎時間を</text><text x="406" y="441" font-size="12" fill="#1d2540">一緒に考える</text>
+    <rect x="464" y="402" width="96" height="54" rx="8" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="512" y="425" font-size="12" fill="#1d2540">その日に笑顔を</text><text x="512" y="441" font-size="12" fill="#1d2540">電話で伝える</text>
+    <rect x="570" y="402" width="96" height="54" rx="8" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="618" y="425" font-size="12" fill="#1d2540">家でできること</text><text x="618" y="441" font-size="12" fill="#1d2540">を1つ書く</text>
+    <rect x="676" y="402" width="96" height="54" rx="8" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="724" y="425" font-size="12" fill="#1d2540">好きなことを</text><text x="724" y="441" font-size="12" fill="#1d2540">1枚にまとめる</text>
+  </g>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" role="img" aria-label="仲間集めの流れ。スタートは、わが社の合言葉（第4章）、会社の夢の完成図（第5章）、3年後のチーム図（第7章）。そこから、1 仲間集めの計画、2 理想の仲間像、3 求人メッセージ、4 届け方、5 選び方の流れ（説明会・見学・面接・体験）、6 面接シート、7 合格とお礼の手紙へと順に進む">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- スタート：合言葉・夢・チーム図 -->
+    <rect x="50" y="16" width="220" height="56" rx="14" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <text x="160" y="40" font-size="15" fill="var(--ink, #1d2540)">💬 わが社の合言葉</text>
+    <text x="160" y="60" font-size="12" fill="var(--ink-soft, #545c78)">第4章</text>
+    <rect x="290" y="16" width="220" height="56" rx="14" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <text x="400" y="40" font-size="15" fill="var(--ink, #1d2540)">🏔 会社の夢の完成図</text>
+    <text x="400" y="60" font-size="12" fill="var(--ink-soft, #545c78)">第5章</text>
+    <rect x="530" y="16" width="220" height="56" rx="14" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <text x="640" y="40" font-size="15" fill="var(--ink, #1d2540)">👥 3年後のチーム図</text>
+    <text x="640" y="60" font-size="12" fill="var(--ink-soft, #545c78)">第7章</text>
+    <!-- 矢印 -->
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M160 74 V88"/><path d="M400 74 V88"/><path d="M640 74 V88"/>
+      <path d="M640 88 H115 V104"/><path d="M109 98 L115 105 L121 98"/>
+      <path d="M203 148 H216"/><path d="M211 142 L217 148 L211 154"/>
+      <path d="M393 148 H406"/><path d="M401 142 L407 148 L401 154"/>
+      <path d="M583 148 H596"/><path d="M591 142 L597 148 L591 154"/>
+      <path d="M685 189 V220"/><path d="M679 214 L685 221 L691 214"/>
+      <path d="M437 271 H424"/><path d="M429 265 L423 271 L429 277"/>
+      <path d="M232 271 H219"/><path d="M224 265 L218 271 L224 277"/>
+    </g>
+    <!-- 1〜4 -->
+    <g fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5">
+      <rect x="30" y="110" width="170" height="76" rx="14"/>
+      <rect x="220" y="110" width="170" height="76" rx="14"/>
+      <rect x="410" y="110" width="170" height="76" rx="14"/>
+      <rect x="600" y="110" width="170" height="76" rx="14"/>
+      <rect x="440" y="226" width="330" height="90" rx="14"/>
+      <rect x="235" y="226" width="185" height="90" rx="14"/>
+    </g>
+    <rect x="30" y="226" width="185" height="90" rx="14" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <g font-size="16" fill="var(--ink, #1d2540)">
+      <text x="115" y="144">📅 仲間集めの計画</text>
+      <text x="305" y="144">🔍 理想の仲間像</text>
+      <text x="495" y="144">💌 求人メッセージ</text>
+      <text x="685" y="144">📣 届け方</text>
+      <text x="605" y="256">🚶 選び方の流れ</text>
+      <text x="327" y="262">📝 面接シート</text>
+    </g>
+    <g font-size="12" fill="var(--ink-soft, #545c78)">
+      <text x="115" y="168">いつ・どの役割に・何人</text>
+      <text x="305" y="168">能力と合言葉の2つの目</text>
+      <text x="495" y="168">条件より「招待状」</text>
+      <text x="685" y="168">探している人がいる場所へ</text>
+      <text x="327" y="288">同じ質問・同じものさし</text>
+    </g>
+    <text x="122" y="262" font-size="16" fill="#1d2540">✉️ 合格とお礼の手紙</text>
+    <text x="122" y="288" font-size="12" fill="#1d2540">気持ちよく、ていねいに</text>
+    <!-- 選び方の流れの中身 -->
+    <g fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2">
+      <rect x="461" y="272" width="60" height="28" rx="14"/>
+      <rect x="537" y="272" width="60" height="28" rx="14"/>
+      <rect x="613" y="272" width="60" height="28" rx="14"/>
+      <rect x="689" y="272" width="60" height="28" rx="14"/>
+    </g>
+    <g font-size="13" fill="var(--ink, #1d2540)">
+      <text x="491" y="291">説明会</text><text x="567" y="291">見学</text><text x="643" y="291">面接</text><text x="719" y="291">体験</text>
+    </g>
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M526 281 L531 286 L526 291"/><path d="M602 281 L607 286 L602 291"/><path d="M678 281 L683 286 L678 291"/>
+    </g>
+    <!-- 番号 -->
+    <g fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2">
+      <circle cx="44" cy="110" r="12"/><circle cx="234" cy="110" r="12"/><circle cx="424" cy="110" r="12"/><circle cx="614" cy="110" r="12"/>
+      <circle cx="454" cy="226" r="12"/><circle cx="249" cy="226" r="12"/><circle cx="44" cy="226" r="12"/>
+    </g>
+    <g font-size="13" fill="var(--ink, #1d2540)">
+      <text x="44" y="115">1</text><text x="234" y="115">2</text><text x="424" y="115">3</text><text x="614" y="115">4</text>
+      <text x="454" y="231">5</text><text x="249" y="231">6</text><text x="44" y="231">7</text>
+    </g>
+    <text x="400" y="350" font-size="13" fill="var(--ink-soft, #545c78)">会社が選ぶだけでなく、相手にも選んでもらう。おたがいに確かめ合う流れです</text>
+  </g>
+</svg>

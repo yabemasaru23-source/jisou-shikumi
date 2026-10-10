@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-label="クセの裏には強みがある。クセ（表）と強み（裏）はコインの両面。気合いで直そうとすると、つかれた日に負けてしまう。仕組みでカバーすると、調子が悪い日も働き、強みだけが残る">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="400" y="36" font-size="20" fill="var(--ink, #1d2540)">クセの裏には、強みがある</text>
+    <!-- ① コインの両面 -->
+    <rect x="30" y="60" width="220" height="290" rx="16" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5"/>
+    <text x="140" y="90" font-size="16" fill="var(--ink, #1d2540)">① コインの両面</text>
+    <circle cx="90" cy="170" r="44" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="3"/>
+    <circle cx="190" cy="170" r="44" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="3"/>
+    <text x="90" y="176" font-size="18" fill="var(--ink, #1d2540)">クセ</text>
+    <text x="190" y="176" font-size="18" fill="#1d2540">強み</text>
+    <text x="90" y="236" font-size="14" fill="var(--ink-soft, #545c78)">表</text>
+    <text x="190" y="236" font-size="14" fill="var(--ink-soft, #545c78)">裏</text>
+    <text x="140" y="280" font-size="14" fill="var(--ink, #1d2540)">表と裏は、いつもセット</text>
+    <text x="140" y="306" font-size="13" fill="var(--ink-soft, #545c78)">自分でやっちゃう ↔ 腕前</text>
+    <text x="140" y="330" font-size="13" fill="var(--ink-soft, #545c78)">クセを責めなくていい</text>
+    <!-- ✕ 気合いで直す -->
+    <rect x="290" y="60" width="220" height="120" rx="14" fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="400" y="92" font-size="16" fill="var(--ink-soft, #545c78)">✕ 気合いで直す</text>
+    <text x="400" y="122" font-size="13" fill="var(--ink-soft, #545c78)">「もう口を出さない」と</text>
+    <text x="400" y="142" font-size="13" fill="var(--ink-soft, #545c78)">心に決める</text>
+    <text x="400" y="168" font-size="13" fill="var(--warm, #c0583a)">→ つかれた日に負ける</text>
+    <!-- ◯ 仕組みでカバー -->
+    <rect x="290" y="196" width="220" height="154" rx="14" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <text x="400" y="228" font-size="16" fill="var(--ink, #1d2540)">◯ 仕組みでカバー</text>
+    <text x="400" y="260" font-size="13" fill="var(--ink, #1d2540)">・こだわりをレシピに書く</text>
+    <text x="400" y="284" font-size="13" fill="var(--ink, #1d2540)">・確認は週1回の報告だけ</text>
+    <text x="400" y="324" font-size="13" fill="var(--leaf, #2f8f6b)">→ 調子が悪い日も働く</text>
+    <!-- ③ 強みが残る -->
+    <rect x="550" y="60" width="220" height="290" rx="16" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <text x="660" y="90" font-size="16" fill="var(--ink, #1d2540)">③ 強みが残る</text>
+    <circle cx="660" cy="172" r="52" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="3"/>
+    <circle cx="660" cy="172" r="42" fill="none" stroke="#1d2540" stroke-width="2"/>
+    <text x="660" y="180" font-size="22" fill="#1d2540">強み</text>
+    <text x="660" y="270" font-size="14" fill="var(--ink, #1d2540)">強みはそのまま活かす</text>
+    <text x="660" y="298" font-size="13" fill="var(--ink-soft, #545c78)">クセが出る場面だけ</text>
+    <text x="660" y="320" font-size="13" fill="var(--ink-soft, #545c78)">仕組みが守ってくれる</text>
+    <text x="400" y="384" font-size="16" fill="var(--ink, #1d2540)">直すのではなく、仕組みでカバーする</text>
+  </g>
+  <!-- きらきら -->
+  <g fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M0 -9 L2.5 -2.5 L9 0 L2.5 2.5 L0 9 L-2.5 2.5 L-9 0 L-2.5 -2.5 Z" transform="translate(726 122)"/>
+    <path d="M0 -9 L2.5 -2.5 L9 0 L2.5 2.5 L0 9 L-2.5 2.5 L-9 0 L-2.5 -2.5 Z" transform="translate(598 226) scale(.8)"/>
+  </g>
+  <!-- 矢印 -->
+  <g fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M254 150 L284 122" stroke="var(--ink-soft, #545c78)" stroke-dasharray="4 6"/>
+    <path d="M273 124 L284 122 L282 133" stroke="var(--ink-soft, #545c78)"/>
+    <path d="M254 240 L284 272 M274 270 L284 272 L282 261" stroke="var(--leaf, #2f8f6b)"/>
+    <path d="M514 272 L546 230 M536 233 L546 230 L545 241" stroke="var(--leaf, #2f8f6b)"/>
+  </g>
+</svg>

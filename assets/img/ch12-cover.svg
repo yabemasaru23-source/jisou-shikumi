@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-label="不安そうな職員さんが「本当にうまくいく？」と言っている。話を聞いて伝えていくと、右側では笑顔の仲間が手をつないで「いっしょに変わる仲間」になっている。くるりんが「反対の声は、本気で考えてくれているサインだよ」と言っている">
+  <rect width="800" height="320" rx="24" fill="var(--sky, #dbe7fb)"/>
+  <!-- くも -->
+  <g fill="var(--surface, #fff)" opacity=".85">
+    <ellipse cx="380" cy="50" rx="42" ry="14"/><ellipse cx="410" cy="42" rx="26" ry="13"/>
+    <ellipse cx="700" cy="56" rx="38" ry="13"/><ellipse cx="728" cy="48" rx="24" ry="12"/>
+  </g>
+  <!-- 丘 -->
+  <ellipse cx="420" cy="340" rx="440" ry="90" fill="var(--leaf, #2f8f6b)" opacity=".7"/>
+  <!-- 不安な職員さん -->
+  <g stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round">
+    <path d="M354 252 V230 Q354 208 380 208 Q406 208 406 230 V252 Z" fill="var(--sky-ink, #6f86b8)"/>
+    <circle cx="380" cy="186" r="18" fill="var(--surface, #fff)"/>
+  </g>
+  <g fill="var(--ink, #1d2540)"><circle cx="374" cy="185" r="2"/><circle cx="386" cy="185" r="2"/></g>
+  <g fill="none" stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linecap="round">
+    <path d="M369 179 L377 181"/><path d="M391 179 L383 181"/>
+    <path d="M374 195 Q377 192 380 195 Q383 198 386 195"/>
+  </g>
+  <path d="M398 172 Q402 180 398 182 Q394 180 398 172 Z" fill="var(--sky-ink, #6f86b8)"/>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <path d="M310 110 h160 a12 12 0 0 1 12 12 v16 a12 12 0 0 1 -12 12 h-80 l-10 12 l-2 -12 h-68 a12 12 0 0 1 -12 -12 v-16 a12 12 0 0 1 12 -12 z" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="390" y="136" font-size="14" fill="var(--ink, #1d2540)">本当にうまくいく？</text>
+  </g>
+  <!-- 聞く・伝える の道 -->
+  <g fill="none" stroke="var(--surface, #fff)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M422 226 Q486 200 548 226" stroke-dasharray="2 12"/>
+    <path d="M538 216 L550 227 L536 232"/>
+  </g>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="486" y="188" font-size="13" fill="var(--ink, #1d2540)">聞く・伝える</text>
+  </g>
+  <!-- 笑顔の仲間 -->
+  <g stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round">
+    <path d="M564 252 V230 Q564 208 590 208 Q616 208 616 230 V252 Z" fill="var(--sky-ink, #6f86b8)"/>
+    <path d="M624 252 V230 Q624 208 650 208 Q676 208 676 230 V252 Z" fill="var(--leaf-soft, #dcf1e8)"/>
+    <path d="M684 252 V230 Q684 208 710 208 Q736 208 736 230 V252 Z" fill="var(--sun, #f2b01e)"/>
+    <circle cx="590" cy="186" r="18" fill="var(--surface, #fff)"/>
+    <circle cx="650" cy="186" r="18" fill="var(--surface, #fff)"/>
+    <circle cx="710" cy="186" r="18" fill="var(--surface, #fff)"/>
+  </g>
+  <g fill="var(--ink, #1d2540)">
+    <circle cx="584" cy="184" r="2"/><circle cx="596" cy="184" r="2"/>
+    <circle cx="644" cy="184" r="2"/><circle cx="656" cy="184" r="2"/>
+    <circle cx="704" cy="184" r="2"/><circle cx="716" cy="184" r="2"/>
+  </g>
+  <g fill="none" stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linecap="round">
+    <path d="M584 191 Q590 197 596 191"/><path d="M644 191 Q650 197 656 191"/><path d="M704 191 Q710 197 716 191"/>
+    <!-- つないだ手 -->
+    <path d="M612 230 Q620 238 628 230" stroke-width="3"/><path d="M672 230 Q680 238 688 230" stroke-width="3"/>
+  </g>
+  <g fill="var(--warm, #c0583a)">
+    <path d="M620 160 C 614 152, 604 160, 620 170 C 636 160, 626 152, 620 160 Z"/>
+    <path d="M680 160 C 674 152, 664 160, 680 170 C 696 160, 686 152, 680 160 Z"/>
+  </g>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <rect x="556" y="104" width="188" height="36" rx="18" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="650" y="128" font-size="15" fill="var(--ink, #1d2540)">🤝 いっしょに変わる仲間</text>
+  </g>
+  <!-- くるりん -->
+  <g transform="translate(40 180) scale(.9)">
+    <g transform="translate(60 62)">
+      <g fill="var(--sun, #f2b01e)">
+        <rect x="-9" y="-54" width="18" height="22" rx="6"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(45)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(90)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(135)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(180)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(225)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(270)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(315)"/>
+      </g>
+      <circle r="40" fill="var(--sun, #f2b01e)"/><circle r="31" fill="#ffd866"/>
+      <circle cx="-12" cy="-4" r="5" fill="#1d2540"/><circle cx="12" cy="-4" r="5" fill="#1d2540"/>
+      <circle cx="-10.5" cy="-6" r="1.8" fill="#fff"/><circle cx="13.5" cy="-6" r="1.8" fill="#fff"/>
+      <ellipse cx="-21" cy="8" rx="6" ry="4" fill="#f4845f" opacity=".55"/><ellipse cx="21" cy="8" rx="6" ry="4" fill="#f4845f" opacity=".55"/>
+      <path d="M-9 9 Q0 19 9 9" fill="none" stroke="#1d2540" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+  </g>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <path d="M38 80 h222 a14 14 0 0 1 14 14 v44 a14 14 0 0 1 -14 14 h-150 l-14 14 l-2 -14 h-56 a14 14 0 0 1 -14 -14 v-44 a14 14 0 0 1 14 -14 z" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="149" y="110" font-size="15" fill="var(--ink, #1d2540)">反対の声は、</text>
+    <text x="149" y="134" font-size="14" fill="var(--ink, #1d2540)">本気で考えてくれているサインだよ</text>
+  </g>
+</svg>

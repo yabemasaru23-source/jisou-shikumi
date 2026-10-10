@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 506" role="img" aria-label="お客様との出会いの道をあらわす、たての砂時計。上半分は上から、知ってもらう、好きになってもらう、信じてもらう、ためしてもらうと、下へいくほど細くなる。まん中のくびれが、買ってもらう。下半分は、また来てもらう、紹介してもらうと、下へいくほど広くなる。それぞれの段の横に、お客様の気持ちのセリフがある。紹介してもらう段から外側をまわって、信じてもらう段へ戻る矢印があり、紹介された人は、はじめから信じた状態で入ってくると書いてある。下に、下半分を太くするのが大事、と書いてある">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- 砂時計のふち -->
+    <rect x="110" y="12" width="440" height="14" rx="7" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <rect x="110" y="404" width="440" height="14" rx="7" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <!-- 上半分：下へいくほど細く -->
+    <g fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2.5" stroke-linejoin="round">
+      <path d="M130 30 H530 L500 76 H160 Z"/>
+      <path d="M162 80 H498 L468 126 H192 Z"/>
+      <path d="M194 130 H466 L436 176 H224 Z"/>
+      <path d="M226 180 H434 L405 226 H255 Z"/>
+    </g>
+    <!-- くびれ -->
+    <rect x="257" y="230" width="146" height="42" rx="10" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <!-- 下半分：下へいくほど広く（太く） -->
+    <g fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="3" stroke-linejoin="round">
+      <path d="M255 276 H405 L465 336 H195 Z"/>
+      <path d="M193 340 H467 L530 400 H130 Z"/>
+    </g>
+    <g font-size="15" fill="var(--ink, #1d2540)">
+      <text x="330" y="58">① 知ってもらう 👀</text>
+      <text x="330" y="108">② 好きになってもらう 💗</text>
+      <text x="330" y="158">③ 信じてもらう 🤝</text>
+      <text x="330" y="208">④ ためしてもらう 🍵</text>
+      <text x="330" y="256" fill="#1d2540">⑤ 買ってもらう ✍️</text>
+      <text x="330" y="311">⑥ また来てもらう 🔁</text>
+      <text x="330" y="375">⑦ 紹介してもらう 📣</text>
+    </g>
+    <!-- お客様のセリフ -->
+    <g stroke="var(--ink-soft, #545c78)" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 6">
+      <path d="M523 53 H560"/><path d="M491 103 H560"/><path d="M459 153 H560"/><path d="M428 203 H560"/>
+      <path d="M411 251 H560"/><path d="M443 306 H560"/><path d="M507 370 H560"/>
+    </g>
+    <g fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2">
+      <rect x="564" y="38" width="222" height="30" rx="15"/>
+      <rect x="564" y="88" width="222" height="30" rx="15"/>
+      <rect x="564" y="138" width="222" height="30" rx="15"/>
+      <rect x="564" y="188" width="222" height="30" rx="15"/>
+      <rect x="564" y="236" width="222" height="30" rx="15" fill="var(--sun-soft, #fdf0cc)"/>
+      <rect x="564" y="291" width="222" height="30" rx="15" fill="var(--leaf-soft, #dcf1e8)"/>
+      <rect x="564" y="355" width="222" height="30" rx="15" fill="var(--leaf-soft, #dcf1e8)"/>
+    </g>
+    <g font-size="13" fill="var(--ink, #1d2540)">
+      <text x="675" y="58">「そんな会社があるんだ」</text>
+      <text x="675" y="108">「なんだか、いい感じ」</text>
+      <text x="675" y="158">「ここなら、ちゃんとしてそう」</text>
+      <text x="675" y="208">「ちょっとやってみようかな」</text>
+      <text x="675" y="256">「ここに決めた」</text>
+      <text x="675" y="311">「やっぱり、ここがいい」</text>
+      <text x="675" y="375">「あなたにも教えたい」</text>
+    </g>
+    <!-- 紹介から③へ戻る矢印 -->
+    <g fill="none" stroke="var(--warm, #c0583a)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M152 370 H70 Q44 370 44 344 V179 Q44 153 70 153 H202"/>
+      <path d="M190 145 L202 153 L190 161"/>
+    </g>
+    <rect x="62" y="196" width="150" height="102" rx="12" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <g font-size="13" fill="var(--ink, #1d2540)">
+      <text x="137" y="218">紹介された人は、</text>
+      <text x="137" y="240">はじめから</text>
+      <text x="137" y="262">「信じた」状態で</text>
+      <text x="137" y="284">入ってくる！</text>
+    </g>
+    <!-- 大事なこと -->
+    <rect x="150" y="434" width="500" height="62" rx="14" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <text x="400" y="460" font-size="18" fill="#1d2540">下半分を太くするのが大事！</text>
+    <text x="400" y="484" font-size="13" fill="#1d2540">また来てもらい、紹介してもらうと、ひとりのお客様からどんどん広がる</text>
+  </g>
+</svg>

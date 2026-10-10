@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" aria-label="くらべる地図。横の線は左が「あずかって過ごす」、右が「家での暮らしを応援する」。たての線は下が「様子が見えにくい」、上が「家族に様子がよく届く」。くらべる相手のほかのデイサービスは左下に集まっている。ひだまりケアは、いまの位置から、右上のライバルのいない空き地にある「なりたい位置」へ移ろうとしている">
+  <defs>
+    <marker id="c17-arw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M1 1 L8 5 L1 9" fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+    <!-- 空き地 -->
+    <rect x="430" y="64" width="292" height="162" rx="20" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5" stroke-dasharray="8 6"/>
+    <text x="446" y="88" font-size="13" fill="var(--ink, #1d2540)">ライバルのいない空き地</text>
+    <!-- 軸 -->
+    <g stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round">
+      <line x1="64" y1="250" x2="736" y2="250" marker-start="url(#c17-arw)" marker-end="url(#c17-arw)"/>
+      <line x1="400" y1="34" x2="400" y2="446" marker-start="url(#c17-arw)" marker-end="url(#c17-arw)"/>
+    </g>
+    <text x="64" y="276" font-size="14" fill="var(--ink-soft, #545c78)">あずかって過ごす</text>
+    <text x="736" y="276" font-size="14" text-anchor="end" fill="var(--ink-soft, #545c78)">家での暮らしを応援する</text>
+    <text x="414" y="44" font-size="14" fill="var(--ink-soft, #545c78)">家族に様子がよく届く</text>
+    <text x="414" y="446" font-size="14" fill="var(--ink-soft, #545c78)">様子が見えにくい</text>
+    <!-- くらべる相手 -->
+    <g fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="2">
+      <rect x="92" y="302" width="96" height="34" rx="17"/>
+      <rect x="206" y="294" width="96" height="34" rx="17"/>
+      <rect x="148" y="352" width="96" height="34" rx="17"/>
+    </g>
+    <g font-size="13" text-anchor="middle" fill="var(--ink, #1d2540)">
+      <text x="140" y="324">ほかのデイA</text>
+      <text x="254" y="316">ほかのデイB</text>
+      <text x="196" y="374">ほかのデイC</text>
+    </g>
+    <text x="196" y="412" font-size="12" text-anchor="middle" fill="var(--ink-soft, #545c78)">くらべる相手が集まっている</text>
+    <!-- いまのひだまりケア -->
+    <rect x="232" y="192" width="156" height="36" rx="18" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <text x="310" y="215" font-size="14" text-anchor="middle" fill="var(--ink, #1d2540)">いまのひだまりケア</text>
+    <!-- 移る矢印 -->
+    <path d="M390 200 Q470 190 532 148" fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+    <path d="M526 160 L532 148 L518 149" fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="446" y="240" font-size="12" fill="var(--ink-soft, #545c78)">差を埋めて、移る</text>
+    <!-- なりたい位置 -->
+    <rect x="538" y="104" width="168" height="60" rx="14" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <text x="622" y="130" font-size="16" text-anchor="middle" fill="#1d2540">⭐ なりたい位置</text>
+    <text x="622" y="152" font-size="12" text-anchor="middle" fill="#1d2540">3年後のひだまりケア</text>
+  </g>
+</svg>

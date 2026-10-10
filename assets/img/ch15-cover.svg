@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-label="丘の上に、添え木のある小さな芽、若い木、実のなった大きな木が順にならび、それぞれ新人さん・役割をもつ人・リーダーの名札がついている。上には「わが社の時間割」の看板。じょうろを持ったくるりんが「育つ道すじを、つくろう！」と言っている">
+  <rect width="800" height="320" rx="24" fill="var(--sky, #dbe7fb)"/>
+  <!-- くも -->
+  <g fill="var(--surface, #fff)" opacity=".85">
+    <ellipse cx="300" cy="96" rx="40" ry="13"/><ellipse cx="326" cy="88" rx="24" ry="13"/>
+    <ellipse cx="740" cy="44" rx="34" ry="12"/><ellipse cx="760" cy="37" rx="20" ry="11"/>
+  </g>
+  <!-- 看板 -->
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <rect x="370" y="22" width="190" height="36" rx="18" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="465" y="46" font-size="16" fill="var(--ink, #1d2540)">📚 わが社の時間割</text>
+  </g>
+  <!-- 地面 -->
+  <ellipse cx="400" cy="322" rx="400" ry="74" fill="var(--leaf, #2f8f6b)" opacity=".8"/>
+  <!-- 育つ道すじ -->
+  <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M330 206 Q 380 160 428 176" stroke-dasharray="4 8"/><path d="M418 170 L429 177 L417 183"/>
+    <path d="M512 156 Q 550 100 584 108" stroke-dasharray="4 8"/><path d="M573 102 L585 108 L574 115"/>
+  </g>
+  <!-- 芽と添え木 -->
+  <line x1="316" y1="254" x2="316" y2="212" stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round"/>
+  <g stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M300 252 V224" fill="none" stroke-width="3"/>
+    <path d="M300 230 Q282 210 268 220 Q280 236 300 230 Z" fill="var(--leaf-soft, #dcf1e8)"/>
+    <path d="M300 226 Q312 204 330 210 Q322 228 300 226 Z" fill="var(--leaf-soft, #dcf1e8)"/>
+    <path d="M300 238 L316 236" fill="none"/>
+  </g>
+  <!-- 若い木 -->
+  <g stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round">
+    <rect x="465" y="196" width="10" height="56" rx="3" fill="var(--warm, #c0583a)"/>
+    <circle cx="470" cy="176" r="34" fill="var(--leaf, #2f8f6b)"/>
+  </g>
+  <!-- 大きな木 -->
+  <g stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round">
+    <rect x="640" y="150" width="20" height="116" rx="4" fill="var(--warm, #c0583a)"/>
+    <circle cx="612" cy="146" r="40" fill="var(--leaf, #2f8f6b)"/>
+    <circle cx="688" cy="146" r="40" fill="var(--leaf, #2f8f6b)"/>
+    <circle cx="650" cy="116" r="54" fill="var(--leaf, #2f8f6b)"/>
+  </g>
+  <g fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="1.5">
+    <circle cx="626" cy="100" r="7"/><circle cx="670" cy="90" r="7"/><circle cx="600" cy="150" r="7"/>
+    <circle cx="694" cy="140" r="7"/><circle cx="650" cy="132" r="7"/>
+  </g>
+  <!-- 名札 -->
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <rect x="260" y="264" width="84" height="28" rx="8" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="302" y="283" font-size="13" fill="var(--ink, #1d2540)">新人さん</text>
+    <rect x="418" y="264" width="104" height="28" rx="8" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="470" y="283" font-size="13" fill="var(--ink, #1d2540)">役割をもつ人</text>
+    <rect x="608" y="274" width="84" height="28" rx="8" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="650" y="293" font-size="13" fill="var(--ink, #1d2540)">リーダー</text>
+  </g>
+  <!-- くるりん -->
+  <g transform="translate(40 180) scale(.9)">
+    <g transform="translate(60 62)">
+      <g fill="var(--sun, #f2b01e)">
+        <rect x="-9" y="-54" width="18" height="22" rx="6"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(45)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(90)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(135)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(180)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(225)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(270)"/><rect x="-9" y="-54" width="18" height="22" rx="6" transform="rotate(315)"/>
+      </g>
+      <circle r="40" fill="var(--sun, #f2b01e)"/><circle r="31" fill="#ffd866"/>
+      <circle cx="-12" cy="-4" r="5" fill="#1d2540"/><circle cx="12" cy="-4" r="5" fill="#1d2540"/>
+      <circle cx="-10.5" cy="-6" r="1.8" fill="#fff"/><circle cx="13.5" cy="-6" r="1.8" fill="#fff"/>
+      <ellipse cx="-21" cy="8" rx="6" ry="4" fill="#f4845f" opacity=".55"/><ellipse cx="21" cy="8" rx="6" ry="4" fill="#f4845f" opacity=".55"/>
+      <path d="M-9 9 Q0 19 9 9" fill="none" stroke="#1d2540" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- じょうろ -->
+      <g transform="translate(40 14)" stroke="#1d2540" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M0 6 H26 V30 H0 Z" fill="var(--sky-ink, #6f86b8)"/>
+        <path d="M26 12 L44 2" fill="none" stroke-width="3"/>
+        <path d="M2 6 Q13 -8 24 6" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g fill="var(--sky-ink, #6f86b8)">
+    <circle cx="190" cy="250" r="3"/><circle cx="198" cy="262" r="3"/><circle cx="188" cy="270" r="3"/>
+  </g>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+    <path d="M40 104 h168 a14 14 0 0 1 14 14 v28 a14 14 0 0 1 -14 14 h-110 l-14 14 l-2 -14 h-42 a14 14 0 0 1 -14 -14 v-28 a14 14 0 0 1 14 -14 z" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <text x="124" y="138" font-size="15" text-anchor="middle" fill="var(--ink, #1d2540)">育つ道すじを、つくろう！</text>
+  </g>
+</svg>

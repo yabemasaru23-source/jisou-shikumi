@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" aria-label="時間のお片づけのしくみ。左の1週間の活動カードを、A未来をつくる、B人に任せられる、Cやらなくていいの3つの箱に仕分ける。BとCは、やめる・交換する・自動にする・やり方を変える・任せるの5つの道具を上から順に通して減らす。右の社長の時間の帯は、いまはA10%・B80%・C10%だが、これからはAが大きく広がる">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- 見出し -->
+    <g font-size="15" fill="var(--ink, #1d2540)">
+      <text x="96" y="34">📝 1週間の活動</text>
+      <text x="301" y="34">3つの箱に仕分ける</text>
+      <text x="515" y="34">5つの道具</text>
+      <text x="706" y="34">社長の時間</text>
+    </g>
+    <text x="515" y="56" font-size="12" fill="var(--ink-soft, #545c78)">上から順に考える</text>
+
+    <!-- 活動カード -->
+    <g fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="2">
+      <rect x="12" y="60" width="168" height="38" rx="8"/>
+      <rect x="12" y="106" width="168" height="38" rx="8"/>
+      <rect x="12" y="152" width="168" height="38" rx="8"/>
+      <rect x="12" y="198" width="168" height="38" rx="8"/>
+      <rect x="12" y="244" width="168" height="38" rx="8"/>
+      <rect x="12" y="290" width="168" height="38" rx="8"/>
+      <rect x="12" y="336" width="168" height="38" rx="8"/>
+    </g>
+    <g font-size="14" fill="var(--ink, #1d2540)">
+      <text x="84" y="84">現場の穴うめ</text>
+      <text x="84" y="130">書類チェック</text>
+      <text x="84" y="176">営業電話の相手</text>
+      <text x="84" y="222">3拠点目の計画</text>
+      <text x="84" y="268">次のリーダーと話す</text>
+      <text x="84" y="314">シフト表づくり</text>
+      <text x="84" y="360">読まれない報告書</text>
+    </g>
+    <!-- カードの行き先 -->
+    <g stroke="var(--ink, #1d2540)" stroke-width="1.5">
+      <circle cx="164" cy="79" r="10" fill="var(--leaf-soft, #dcf1e8)"/>
+      <circle cx="164" cy="125" r="10" fill="var(--leaf-soft, #dcf1e8)"/>
+      <circle cx="164" cy="171" r="10" fill="var(--surface, #fff)"/>
+      <circle cx="164" cy="217" r="10" fill="var(--sun, #f2b01e)"/>
+      <circle cx="164" cy="263" r="10" fill="var(--sun, #f2b01e)"/>
+      <circle cx="164" cy="309" r="10" fill="var(--leaf-soft, #dcf1e8)"/>
+      <circle cx="164" cy="355" r="10" fill="var(--surface, #fff)"/>
+    </g>
+    <g font-size="12">
+      <text x="164" y="83" fill="#1d2540">B</text>
+      <text x="164" y="129" fill="#1d2540">B</text>
+      <text x="164" y="175" fill="var(--ink, #1d2540)">C</text>
+      <text x="164" y="221" fill="#1d2540">A</text>
+      <text x="164" y="267" fill="#1d2540">A</text>
+      <text x="164" y="313" fill="#1d2540">B</text>
+      <text x="164" y="359" fill="var(--ink, #1d2540)">C</text>
+    </g>
+    <text x="96" y="398" font-size="12" fill="var(--ink-soft, #545c78)">思いつくかぎり書き出す</text>
+
+    <!-- カード → 箱 -->
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M184 218 H200"/><path d="M194 211 L202 218 L194 225"/>
+    </g>
+
+    <!-- 3つの箱 -->
+    <rect x="206" y="60" width="190" height="96" rx="14" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    <text x="301" y="92" font-size="17" fill="#1d2540">A：未来をつくる</text>
+    <text x="301" y="116" font-size="12" fill="#1d2540">いまは自分にしかできない</text>
+    <text x="301" y="140" font-size="12" fill="#1d2540">3拠点目の計画・リーダー育て</text>
+
+    <rect x="206" y="170" width="190" height="96" rx="14" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/>
+    <text x="301" y="202" font-size="17" fill="var(--ink, #1d2540)">B：人に任せられる</text>
+    <text x="301" y="226" font-size="12" fill="var(--ink-soft, #545c78)">教えれば、ほかの人もできる</text>
+    <text x="301" y="250" font-size="12" fill="var(--ink-soft, #545c78)">穴うめ・書類・シフト表</text>
+
+    <rect x="206" y="280" width="190" height="96" rx="14" fill="var(--surface, #fff)" stroke="var(--ink-soft, #545c78)" stroke-width="2.5" stroke-dasharray="8 6"/>
+    <text x="301" y="312" font-size="17" fill="var(--ink, #1d2540)">C：やらなくていい</text>
+    <text x="301" y="336" font-size="12" fill="var(--ink-soft, #545c78)">やめても、誰も困らない</text>
+    <text x="301" y="360" font-size="12" fill="var(--ink-soft, #545c78)">営業電話・読まれない報告書</text>
+
+    <!-- B・C → 道具 -->
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M398 218 C 416 218, 404 82, 424 82"/><path d="M416 76 L425 82 L416 88"/>
+      <path d="M398 328 C 420 328, 406 100, 424 100"/><path d="M416 94 L425 100 L416 106"/>
+    </g>
+
+    <!-- 5つの道具 -->
+    <g fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5">
+      <rect x="430" y="70" width="170" height="40" rx="10"/>
+      <rect x="430" y="120" width="170" height="40" rx="10"/>
+      <rect x="430" y="170" width="170" height="40" rx="10"/>
+      <rect x="430" y="220" width="170" height="40" rx="10"/>
+      <rect x="430" y="270" width="170" height="40" rx="10"/>
+    </g>
+    <g font-size="15" fill="var(--ink, #1d2540)">
+      <text x="515" y="96">✋ ①やめる</text>
+      <text x="515" y="146">🔄 ②交換する</text>
+      <text x="515" y="196">⚙️ ③自動にする</text>
+      <text x="515" y="246">✏️ ④やり方を変える</text>
+      <text x="515" y="296">🤝 ⑤任せる</text>
+    </g>
+    <!-- 順番の矢印 -->
+    <g fill="none" stroke="var(--leaf, #2f8f6b)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M613 76 V302"/><path d="M606 294 L613 304 L620 294"/>
+    </g>
+    <!-- 道具 → 結果 -->
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M515 314 V390"/><path d="M508 382 L515 392 L522 382"/>
+    </g>
+    <text x="566" y="356" font-size="13" fill="var(--ink-soft, #545c78)">BとCがへる</text>
+
+    <!-- 社長の時間の帯 -->
+    <g stroke="var(--ink, #1d2540)" stroke-width="2">
+      <rect x="636" y="70" width="54" height="26" fill="var(--sun, #f2b01e)"/>
+      <rect x="636" y="96" width="54" height="208" fill="var(--leaf-soft, #dcf1e8)"/>
+      <rect x="636" y="304" width="54" height="26" fill="var(--surface, #fff)"/>
+      <rect x="722" y="70" width="54" height="156" fill="var(--sun, #f2b01e)"/>
+      <rect x="722" y="226" width="54" height="78" fill="var(--leaf-soft, #dcf1e8)"/>
+      <rect x="722" y="304" width="54" height="26" fill="var(--surface, #fff)"/>
+    </g>
+    <g font-size="12">
+      <text x="663" y="88" fill="#1d2540">A 10%</text>
+      <text x="663" y="204" fill="var(--ink, #1d2540)">B 80%</text>
+      <text x="663" y="322" fill="var(--ink, #1d2540)">C 10%</text>
+      <text x="749" y="269" fill="var(--ink, #1d2540)">B</text>
+      <text x="749" y="322" fill="var(--ink, #1d2540)">C</text>
+    </g>
+    <text x="749" y="154" font-size="20" fill="#1d2540">A</text>
+    <g fill="none" stroke="var(--sun, #f2b01e)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M696 200 H714"/><path d="M708 194 L716 200 L708 206"/>
+    </g>
+    <g font-size="14" fill="var(--ink, #1d2540)">
+      <text x="663" y="352">いま</text>
+      <text x="749" y="352">これから</text>
+    </g>
+
+    <!-- まとめ -->
+    <rect x="206" y="396" width="578" height="52" rx="16" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <text x="495" y="428" font-size="16" fill="var(--ink, #1d2540)">⏰ BとCを減らした分だけ、Aの「未来をつくる時間」が広がる</text>
+  </g>
+</svg>

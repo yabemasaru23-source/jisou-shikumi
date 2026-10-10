@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" role="img" aria-label="品質を守る5つのステップの輪。①決める（お客様の願い×うちの場面）、②先回りする（起こりそうな失敗を予測）、③原因をさがす（なぜ？を3回）、④はかる（品質チェック表）、⑤約束して教える（品質宣言と研修）。⑤から①に戻って、くり返し回す">
+  <defs>
+    <marker id="c19-arw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M1 1 L8 5 L1 9" fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <!-- 矢印の輪 -->
+  <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="3" stroke-linecap="round" marker-end="url(#c19-arw)">
+    <path d="M500 86 Q600 96 614 150"/>
+    <path d="M630 232 Q622 300 584 328"/>
+    <path d="M436 382 Q400 394 366 382"/>
+    <path d="M214 328 Q176 300 172 232"/>
+    <path d="M188 150 Q206 94 300 84"/>
+  </g>
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- 5つのステップ -->
+    <rect x="305" y="44" width="190" height="72" rx="14" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2.5"/>
+    <g fill="var(--surface, #fff)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5">
+      <rect x="524" y="155" width="190" height="72" rx="14"/>
+      <rect x="440" y="333" width="190" height="72" rx="14"/>
+      <rect x="170" y="333" width="190" height="72" rx="14"/>
+      <rect x="86" y="155" width="190" height="72" rx="14"/>
+    </g>
+    <g font-size="17" fill="var(--ink, #1d2540)">
+      <text x="400" y="74">① 決める</text>
+      <text x="619" y="185">② 先回りする</text>
+      <text x="535" y="363">③ 原因をさがす</text>
+      <text x="265" y="363">④ はかる</text>
+      <text x="181" y="185">⑤ 約束して教える</text>
+    </g>
+    <g font-size="12" fill="var(--ink-soft, #545c78)">
+      <text x="400" y="100">お客様の願い × うちの場面</text>
+      <text x="619" y="211">起こりそうな失敗を予測</text>
+      <text x="535" y="389">「なぜ？」を3回くり返す</text>
+      <text x="265" y="389">品質チェック表で点をつける</text>
+      <text x="181" y="211">品質宣言と研修</text>
+    </g>
+    <!-- まんなか -->
+    <text x="400" y="230" font-size="20" fill="var(--ink, #1d2540)">🔁 くり返し回す</text>
+    <text x="400" y="258" font-size="14" fill="var(--ink-soft, #545c78)">いつものクオリティを守る</text>
+    <text x="400" y="280" font-size="14" fill="var(--ink-soft, #545c78)">5つのステップ</text>
+  </g>
+</svg>

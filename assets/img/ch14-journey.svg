@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 530" role="img" aria-label="新しい仲間の旅の地図。入社1か月前は楽しみが不安より大きい、入社1週間前は当日の流れがわかる、入社日は待っていてもらえた、1週目は会社の地図がわかる、2〜4週目は先輩と一緒ならついていける、5〜8週目は最初の成功、9〜12週目は成長の目標を自分の言葉で言える。入社前にようこそセットが届き、1週目の終わり・30日・60日・90日に応援面談がある。道の下では本人、お世話係・上司、受け入れ担当の3つの役割がいっしょに進む">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="400" y="26" font-size="18" fill="var(--ink, #1d2540)">🗺 新しい仲間の旅の地図</text>
+    <!-- 道 -->
+    <path d="M30 118 H740 C796 118 796 300 740 300 H30" fill="none" stroke="var(--ink, #1d2540)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M30 118 H740 C796 118 796 300 740 300 H30" fill="none" stroke="var(--sun-soft, #fdf0cc)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M201 112 l6 6 l-6 6"/><path d="M391 112 l6 6 l-6 6"/><path d="M581 112 l6 6 l-6 6"/>
+      <path d="M528 294 l-6 6 l6 6"/><path d="M278 294 l-6 6 l6 6"/>
+    </g>
+    <!-- ようこそセット -->
+    <g stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round">
+      <rect x="168" y="50" width="56" height="38" rx="4" fill="var(--surface, #fff)"/>
+      <path d="M168 52 L196 72 L224 52" fill="none"/>
+      <circle cx="196" cy="72" r="5" fill="var(--warm, #c0583a)"/>
+    </g>
+    <text x="284" y="68" font-size="14" fill="var(--ink, #1d2540)">ようこそセット</text>
+    <text x="284" y="88" font-size="12" fill="var(--ink-soft, #545c78)">入社前にとどく</text>
+    <!-- 応援面談の吹き出し -->
+    <g stroke="var(--leaf, #2f8f6b)" stroke-width="2" stroke-linejoin="round" fill="var(--leaf-soft, #dcf1e8)">
+      <path d="M683 44 h104 v44 h-40 l-7 12 l-7 -12 h-50 z"/>
+      <path d="M473 226 h104 v44 h-45 l-7 12 l-7 -12 h-45 z"/>
+      <path d="M223 226 h104 v44 h-45 l-7 12 l-7 -12 h-45 z"/>
+      <path d="M8 226 h104 v44 h-45 l-7 12 l-7 -12 h-45 z"/>
+    </g>
+    <g font-size="13" fill="var(--ink, #1d2540)">
+      <text x="735" y="62">💬 応援面談</text><text x="735" y="80" font-size="12">1週目の終わり</text>
+      <text x="525" y="244">💬 応援面談</text><text x="525" y="262">30日</text>
+      <text x="275" y="244">💬 応援面談</text><text x="275" y="262">60日</text>
+      <text x="60" y="244">💬 応援面談</text><text x="60" y="262">90日</text>
+    </g>
+    <!-- 最初の成功の旗 -->
+    <line x1="424" y1="290" x2="424" y2="226" stroke="var(--ink, #1d2540)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M424 226 L460 237 L424 248 Z" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2" stroke-linejoin="round"/>
+    <!-- 7つの時期（コマ） -->
+    <g stroke="var(--ink, #1d2540)" stroke-width="2.5" fill="var(--surface, #fff)">
+      <circle cx="110" cy="118" r="15"/><circle cx="300" cy="118" r="15"/><circle cx="490" cy="118" r="15"/><circle cx="680" cy="118" r="15"/>
+      <circle cx="650" cy="300" r="15"/><circle cx="400" cy="300" r="15" fill="var(--sun, #f2b01e)"/><circle cx="150" cy="300" r="15"/>
+    </g>
+    <g font-size="14" fill="var(--ink, #1d2540)">
+      <text x="110" y="123">1</text><text x="300" y="123">2</text><text x="490" y="123">3</text><text x="680" y="123">4</text>
+      <text x="650" y="305">5</text><text x="400" y="305" fill="#1d2540">6</text><text x="150" y="305">7</text>
+    </g>
+    <!-- 目指す状態のカード -->
+    <g stroke-width="2">
+      <g fill="var(--surface, #fff)" stroke="var(--sky-ink, #6f86b8)">
+        <rect x="30" y="140" width="160" height="62" rx="12"/><rect x="220" y="140" width="160" height="62" rx="12"/>
+        <rect x="410" y="140" width="160" height="62" rx="12"/><rect x="600" y="140" width="160" height="62" rx="12"/>
+        <rect x="550" y="322" width="200" height="62" rx="12"/><rect x="50" y="322" width="200" height="62" rx="12"/>
+      </g>
+      <rect x="300" y="322" width="200" height="62" rx="12" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+    </g>
+    <g font-size="13" fill="var(--ink-soft, #545c78)">
+      <text x="110" y="164">入社1か月前</text><text x="300" y="164">入社1週間前</text><text x="490" y="164">入社日</text><text x="680" y="164">1週目</text>
+      <text x="650" y="346">2〜4週目</text><text x="150" y="346">9〜12週目</text>
+      <text x="400" y="346" fill="#1d2540">5〜8週目</text>
+    </g>
+    <g font-size="15" fill="var(--ink, #1d2540)">
+      <text x="110" y="190">楽しみ＞不安</text><text x="300" y="190">当日の流れがわかる</text>
+      <text x="490" y="190">待っていてもらえた</text><text x="680" y="190">会社の地図がわかる</text>
+      <text x="650" y="372" font-size="14">先輩と一緒ならついていける</text>
+      <text x="150" y="372" font-size="14">成長の目標を自分の言葉で</text>
+      <text x="400" y="372" font-size="16" fill="#1d2540">最初の成功！</text>
+    </g>
+    <!-- 3つの役割の帯 -->
+    <text x="400" y="408" font-size="13" fill="var(--ink-soft, #545c78)">道の下では、3つの役割がいっしょに進みます</text>
+    <rect x="30" y="418" width="740" height="30" rx="15" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2"/>
+    <rect x="30" y="454" width="740" height="30" rx="15" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2"/>
+    <rect x="30" y="490" width="740" height="30" rx="15" fill="var(--sky, #dbe7fb)" stroke="var(--sky-ink, #6f86b8)" stroke-width="2"/>
+    <g font-size="14" fill="var(--ink, #1d2540)" text-anchor="start">
+      <text x="50" y="438">🙂 本人</text>
+      <text x="50" y="474">🤝 お世話係・上司</text>
+      <text x="50" y="510">📋 受け入れ担当</text>
+    </g>
+    <g font-size="13" fill="var(--ink-soft, #545c78)" text-anchor="start">
+      <text x="250" y="438">一歩ずつ、目指す状態へ進む</text>
+      <text x="250" y="474">そばで教えて、応援面談で話を聞く</text>
+      <text x="250" y="510">準備と段取りをして、旅の全体を見守る</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 466" role="img" aria-label="任せ方の7つの段階。段階1「私が決める」では上司が全部決め、段階が上がるほど部下が決める部分が増え、段階4では半分ずつ、段階7「すっかりお任せ」では部下がすべて決める">
+  <g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+    <text x="400" y="32" font-size="20" text-anchor="middle" fill="var(--ink, #1d2540)">任せ方の「7つの段階」</text>
+    <!-- 凡例 -->
+    <rect x="300" y="46" width="18" height="16" rx="4" fill="var(--sky-ink, #6f86b8)" stroke="var(--ink, #1d2540)" stroke-width="1.5"/>
+    <text x="326" y="60" font-size="13" fill="var(--ink, #1d2540)">上司が決める部分</text>
+    <rect x="470" y="46" width="18" height="16" rx="4" fill="var(--leaf, #2f8f6b)" stroke="var(--ink, #1d2540)" stroke-width="1.5"/>
+    <text x="496" y="60" font-size="13" fill="var(--ink, #1d2540)">部下が決める部分</text>
+    <!-- 段階1 -->
+    <rect x="300" y="80" width="470" height="30" rx="8" fill="var(--sky-ink, #6f86b8)"/>
+    <rect x="300" y="80" width="470" height="30" rx="8" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <!-- 段階2 -->
+    <rect x="300" y="130" width="470" height="30" rx="8" fill="var(--leaf, #2f8f6b)"/>
+    <path d="M308 130 h384 v30 h-384 a8 8 0 0 1 -8 -8 v-14 a8 8 0 0 1 8 -8 z" fill="var(--sky-ink, #6f86b8)"/>
+    <rect x="300" y="130" width="470" height="30" rx="8" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <!-- 段階3 -->
+    <rect x="300" y="180" width="470" height="30" rx="8" fill="var(--leaf, #2f8f6b)"/>
+    <path d="M308 180 h305 v30 h-305 a8 8 0 0 1 -8 -8 v-14 a8 8 0 0 1 8 -8 z" fill="var(--sky-ink, #6f86b8)"/>
+    <rect x="300" y="180" width="470" height="30" rx="8" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <!-- 段階4 -->
+    <rect x="300" y="230" width="470" height="30" rx="8" fill="var(--leaf, #2f8f6b)"/>
+    <path d="M308 230 h227 v30 h-227 a8 8 0 0 1 -8 -8 v-14 a8 8 0 0 1 8 -8 z" fill="var(--sky-ink, #6f86b8)"/>
+    <rect x="300" y="230" width="470" height="30" rx="8" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <!-- 段階5 -->
+    <rect x="300" y="280" width="470" height="30" rx="8" fill="var(--leaf, #2f8f6b)"/>
+    <path d="M308 280 h149 v30 h-149 a8 8 0 0 1 -8 -8 v-14 a8 8 0 0 1 8 -8 z" fill="var(--sky-ink, #6f86b8)"/>
+    <rect x="300" y="280" width="470" height="30" rx="8" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <!-- 段階6 -->
+    <rect x="300" y="330" width="470" height="30" rx="8" fill="var(--leaf, #2f8f6b)"/>
+    <path d="M308 330 h70 v30 h-70 a8 8 0 0 1 -8 -8 v-14 a8 8 0 0 1 8 -8 z" fill="var(--sky-ink, #6f86b8)"/>
+    <rect x="300" y="330" width="470" height="30" rx="8" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <!-- 段階7 -->
+    <rect x="300" y="380" width="470" height="30" rx="8" fill="var(--leaf, #2f8f6b)"/>
+    <rect x="300" y="380" width="470" height="30" rx="8" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+    <!-- 番号と名前 -->
+    <g fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="2">
+      <circle cx="46" cy="95" r="14"/><circle cx="46" cy="145" r="14"/><circle cx="46" cy="195" r="14"/><circle cx="46" cy="245" r="14"/><circle cx="46" cy="295" r="14"/><circle cx="46" cy="345" r="14"/><circle cx="46" cy="395" r="14"/>
+    </g>
+    <g font-size="14" text-anchor="middle" fill="var(--ink, #1d2540)">
+      <text x="46" y="100">1</text><text x="46" y="150">2</text><text x="46" y="200">3</text><text x="46" y="250">4</text><text x="46" y="300">5</text><text x="46" y="350">6</text><text x="46" y="400">7</text>
+    </g>
+    <g font-size="14" fill="var(--ink, #1d2540)">
+      <text x="70" y="100">私が決める</text>
+      <text x="70" y="150">私が決めて、理由を話す</text>
+      <text x="70" y="200">意見を聞いてから、私が決める</text>
+      <text x="70" y="250">一緒に話し合って決める</text>
+      <text x="70" y="300">あなたが決める。私は意見を言う</text>
+      <text x="70" y="350">あなたが決めて、あとで教えて</text>
+      <text x="70" y="400">すっかりお任せ</text>
+    </g>
+    <text x="400" y="446" font-size="14" text-anchor="middle" fill="var(--ink-soft, #545c78)">段階が上がるほど、部下が決める部分がふえる。どの段階が正しい、はありません</text>
+  </g>
+</svg>
